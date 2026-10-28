@@ -1,0 +1,1528 @@
+{
+  "version": "2026-10-28-consolidated-draft-4",
+  "status": "draft",
+  "world": {
+    "ru": "Вы руководите проектом Trend Radar. Ричард занимает пост генерального директора и спонсирует проект. Амир отвечает за внедрение. Вечерняя смена пробует продукт в работе; в пятницу совет решит, расширять ли внедрение. В каждой серии и дополнительной ситуации свои условия. Они показывают возможные варианты развития проекта.",
+    "en": "You are the Trend Radar project manager. Richard is CEO and sponsor; Amir manages rollout. The product is already piloted by the evening shift; on Friday the board decides on scaling. Scenes and counterexamples present separate conditions, not a literal continuous timeline."
+  },
+  "lessons": [
+    {
+      "id": "SCENE-BE3",
+      "lessonId": "BE3",
+      "status": "draft",
+      "ecoTask": "BE-3",
+      "ecoTaskName": "Manage and control changes",
+      "ecoTaskRu": "Управление изменениями",
+      "ecoEnabler": "Execute the change control process",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Нора просит новый источник данных к пятничной демонстрации. Ричард утвердил объём демонстрации и принимает решения о его изменении. Команда ещё не оценила влияние запроса. Что сделать первым?",
+      "en": "Nora asks for a new data feed for Friday’s demonstration. Richard approved its scope and decides changes to it. The team has not assessed the request’s impact. What should you do first?",
+      "options": [
+        "Пообещать Норе пятницу и освободить время команды за счёт текущих задач.",
+        "Уточнить цель, оценить влияние с командой и подготовить варианты Ричарду.",
+        "Отложить запрос до следующего релиза, сохранив утверждённый объём демонстрации.",
+        "Передать просьбу Ричарду и начать оценку после его предварительной поддержки."
+      ],
+      "enOptions": [
+        "Promise Nora Friday and free up team capacity by deferring current tasks.",
+        "Clarify the goal, assess the impact with the team and prepare options for Richard.",
+        "Defer the request to the next release, keeping the approved demonstration scope.",
+        "Send the request to Richard and assess it after he gives preliminary support."
+      ],
+      "key": 1,
+      "why": [
+        "Вы обещаете срок до того, как команда оценит влияние запроса, а Ричард примет решение.",
+        "С оценкой команды вы сможете предложить Ричарду варианты срока и объёма, прежде чем что-либо обещать Норе.",
+        "Перенос может быть оправдан, но вы ещё не оценили запрос и не можете обосновать новую дату.",
+        "Ричарду нужны варианты и их последствия. Одной просьбы недостаточно для решения."
+      ],
+      "enWhy": [
+        "The promise precedes impact assessment and Richard’s decision.",
+        "Assessment prepares a scope and timing decision without a premature commitment.",
+        "Deferral may be sensible, but no assessment yet supports the date choice.",
+        "Under this decision process Richard needs options and impacts, not just the request."
+      ],
+      "fact": "Команда ещё не оценила влияние запроса. Изменения объёма утверждает Ричард.",
+      "enFact": "Impact is unknown and Richard owns the scope decision.",
+      "rule": "Оцените влияние запроса, прежде чем обещать новый объём работы.",
+      "enRule": "Prepare decision evidence before promising new scope.",
+      "boundary": "Если команда провела оценку и получила согласование, можно переходить к работе. В адаптивном проекте изменения могут проходить через бэклог.",
+      "enBoundary": "If assessment and approval already exist, execution may be next. An adaptive project may use a backlog process.",
+      "reaction": [
+        "Нора записывает пятницу как обещание. Сергей спрашивает, какую работу переносить.",
+        "Нора соглашается вернуться к разговору с оценкой до репетиции.",
+        "Нора просит объяснить, почему запрос перенесли до сравнения вариантов.",
+        "Ричард возвращает вопрос: «Как это повлияет на показ?»"
+      ],
+      "enReaction": [
+        "Nora records Friday as a promise. Sergey asks which work should move.",
+        "Nora agrees to return to the conversation with an assessment before rehearsal.",
+        "Nora asks why the request was deferred before comparing options.",
+        "Richard returns the question: “How will this affect the demonstration?”"
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 3. PMBOK 8 §2.1.6.8; PDF 133–135. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 3. PMBOK 8 §2.1.6.8; PDF 133–135. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Пятница уже в календаре",
+      "enTitle": "Friday is already on the calendar",
+      "who": "Нора",
+      "role": "Владелец продукта",
+      "img": "../../prototype/media/s2.webp",
+      "pos": "73% center",
+      "episode": 1,
+      "line": "Мне нужен ответ до репетиции. Это всего один дополнительный источник данных.",
+      "enLine": "I need an answer before rehearsal. It is just one extra data feed.",
+      "counter": {
+        "id": "COUNTER-BE3",
+        "lessonId": "BE3",
+        "status": "draft",
+        "ecoTask": "BE-3",
+        "ecoTaskName": "Manage and control changes",
+        "ecoTaskRu": "Управление изменениями",
+        "ecoEnabler": "Implement approved changes to the project",
+        "ecoSecondary": [],
+        "moveType": "действовать",
+        "stem": "Оценка изменения завершена, согласование Ричарда внесено в журнал изменений. В обновлённом плане есть ресурсы и зависимости для нового источника данных. Нужные специалисты доступны. Вы вправе распределять работу. Что сделать следующим?",
+        "en": "The change assessment is complete and Richard’s approval is recorded in the change log. The updated plan includes resources and dependencies for the new data feed. The required specialists are available and work allocation is within your authority. What should you do next?",
+        "options": [
+          "Начать согласованные работы и сообщить участникам обновлённый план.",
+          "Получить повторное подтверждение Ричарда перед работой над согласованным изменением.",
+          "Сохранить изменение для следующего релиза, чтобы снизить нагрузку перед показом.",
+          "Обсудить изменение на ближайшем общем совещании и после этого назначить старт."
+        ],
+        "enOptions": [
+          "Start the agreed work and communicate the updated plan to participants.",
+          "Obtain Richard’s confirmation again before starting implementation of the change.",
+          "Hold the change for the next release to reduce pressure before the demonstration.",
+          "Discuss the change at the next general meeting and then schedule its start."
+        ],
+        "key": 0,
+        "why": [
+          "Согласования получены. Вы можете организовать утверждённую работу.",
+          "По заданному порядку повторное подтверждение не требуется. Оно только задержит начало работ.",
+          "Вы перенесёте работу вопреки согласованному плану, хотя основания для переноса не указаны.",
+          "Утверждённый план не требует общего совещания перед началом работ."
+        ],
+        "enWhy": [
+          "Required decisions are made; the approved work now needs organising.",
+          "The stated process does not require reconfirmation; it delays the start.",
+          "Deferral changes the agreed plan without new grounds.",
+          "A general discussion is not a condition of the approved start."
+        ],
+        "fact": "Изменение согласовано, план и ресурсы готовы. Вы вправе распределить работу.",
+        "enFact": "The change is approved, the plan and resources are ready, and work allocation is within your authority.",
+        "rule": "После подготовки и согласования переходите к работе.",
+        "enRule": "Completed preparation should lead to execution.",
+        "boundary": "Если появились существенные новые данные, пересмотрите решение перед выполнением.",
+        "enBoundary": "Material new evidence calls for reconsideration rather than automatic execution.",
+        "reaction": [
+          "Согласования получены. Вы можете организовать утверждённую работу.",
+          "По заданному порядку повторное подтверждение не требуется. Оно только задержит начало работ.",
+          "Вы перенесёте работу вопреки согласованному плану, хотя основания для переноса не указаны.",
+          "Утверждённый план не требует общего совещания перед началом работ."
+        ],
+        "enReaction": [
+          "Required decisions are made; the approved work now needs organising.",
+          "The stated process does not require reconfirmation; it delays the start.",
+          "Deferral changes the agreed plan without new grounds.",
+          "A general discussion is not a condition of the approved start."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 3. PMBOK 8 §2.1.6.8; PDF 133–135. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 3. PMBOK 8 §2.1.6.8; PDF 133–135. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE1",
+      "lessonId": "BE1",
+      "status": "draft",
+      "ecoTask": "BE-1",
+      "ecoTaskName": "Define and establish project governance",
+      "ecoTaskRu": "Управление проектом и полномочия",
+      "ecoEnabler": "Outline governance escalation paths and thresholds",
+      "ecoSecondary": [
+        {
+          "task": "BE-2",
+          "enabler": "Determine the necessary approach and action(s) to address compliance needs"
+        }
+      ],
+      "moveType": "эскалировать",
+      "stem": "Проверка безопасности Trend Radar не пройдена. Марк, владелец контроля, отклонил исключение. Ричард, спонсор, настаивает на выпуске к пятнице; обсуждение с ними не сняло разногласий. По уставу споры между спонсором и владельцами контролей рассматривает управляющий комитет. Что сделать первым?",
+      "en": "Trend Radar has failed its security review. Mark, the control owner, has refused an exception. Richard, the sponsor, insists on release by Friday; discussion with them has not resolved the disagreement. Under the charter, disputes between the sponsor and control owners fall within the steering committee’s remit. What should you do first?",
+      "options": [
+        "Подготовить выпуск по письменному поручению Ричарда, приложив отказ Марка.",
+        "Сохранить запрет и представить комитету влияние конфликта и варианты.",
+        "Согласовать с командой частичный выпуск, чтобы сохранить пятничную дату.",
+        "Сначала дождаться повторной проверки, затем объяснить Ричарду изменение срока."
+      ],
+      "enOptions": [
+        "Prepare release on Richard’s written instruction, attaching Mark’s refusal.",
+        "Keep the block and present the conflict’s impact and options to the committee.",
+        "Agree a partial release with the team in order to preserve Friday’s date.",
+        "Wait for a repeat review first, then explain the changed date to Richard."
+      ],
+      "key": 1,
+      "why": [
+        "Ричард не может своим поручением заменить разрешение Марка на исключение.",
+        "Вы обсудили разногласия, но не решили их. По уставу такой спор рассматривает комитет. До допустимого решения выпуск остаётся под запретом.",
+        "В условии нет разрешения на частичный выпуск без проверки. Согласия команды для этого недостаточно.",
+        "Повторная проверка не решит спор о полномочиях и сроке. Пока вы ждёте, комитет не получает вопрос на рассмотрение."
+      ],
+      "enWhy": [
+        "The sponsor’s instruction does not override the defined exception authority.",
+        "Discussion has not resolved the conflict and the decision exceeds your authority. The charter identifies the committee as the recipient; the block remains until a permitted resolution.",
+        "The condition does not allow partial release without review. Team agreement is not the control.",
+        "A repeat review does not itself resolve the authority and schedule dispute; waiting delays its consideration by the committee."
+      ],
+      "fact": "Марк отказал в исключении, обсуждение не помогло. По уставу спор рассматривает комитет.",
+      "enFact": "The exception is refused and discussion has not resolved the conflict; the charter assigns this type of dispute to the committee.",
+      "rule": "Передавайте спор по установленному порядку, если решение выходит за ваши полномочия. Обязательные ограничения сохраняются.",
+      "enRule": "Escalate beyond your authority while keeping mandatory constraints.",
+      "boundary": "Комитет должен выбрать допустимый вариант. Обращение к нему не даёт права отменить контроль безопасности. В другом проекте устав может назначать иной орган; решения в пределах ваших полномочий вы принимаете сами.",
+      "enBoundary": "The committee considers permitted options rather than automatically overriding the control. A different charter may specify another recipient; decisions within your authority do not require this escalation.",
+      "reaction": [
+        "Марк просит указать, кто разрешил исключение. Письмо Ричарда не закрывает этот вопрос.",
+        "Комитет рассматривает последствия для срока и допустимые варианты. До решения по правилам безопасности выпуск остаётся под запретом.",
+        "Команда спрашивает, какие части разрешены к выпуску. Такого решения пока нет.",
+        "Ричард узнаёт о задержке позднее, хотя конфликт был известен заранее."
+      ],
+      "enReaction": [
+        "Mark asks who authorised the exception. Richard’s email does not resolve that question.",
+        "The committee receives the schedule impact and permitted options. Release remains blocked pending a resolution within the security rules.",
+        "The team asks which parts are cleared for release. No such decision exists yet.",
+        "Richard learns about the delay later although the conflict was already known."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Две подписи",
+      "enTitle": "Two signatures",
+      "who": "Марк",
+      "role": "Директор по ИТ",
+      "img": "../../prototype/media/s4.webp",
+      "pos": "35% center",
+      "episode": 2,
+      "line": "Ричард ждёт выпуск в пятницу. Мой отказ у него на столе со вчерашнего дня.",
+      "enLine": "Richard expects release on Friday. My refusal has been on his desk since yesterday.",
+      "counter": {
+        "id": "COUNTER-BE1",
+        "lessonId": "BE1",
+        "status": "draft",
+        "ecoTask": "BE-1",
+        "ecoTaskName": "Define and establish project governance",
+        "ecoTaskRu": "Управление проектом и полномочия",
+        "ecoEnabler": "Describe and establish reporting through organizational process assets",
+        "ecoSecondary": [],
+        "moveType": "оценить",
+        "stem": "В другом выпуске проверка безопасности идёт по плану. Формат отчётности команда выбирает сама: Марк просит пять отчётов, Нора — один дашборд. Что сделать первым?",
+        "en": "In another release the security review is on track. The team chooses its reporting format: Mark wants five reports, Nora one dashboard. What should you do first?",
+        "options": [
+          "Попросить Ричарда определить единый формат до следующего отчётного периода.",
+          "Принять пакет Марка как более подробный источник данных для всех участников.",
+          "Выяснить, для каких решений нужны данные, и согласовать формат с Марком и Норой.",
+          "Оставить только дашборд Норы, чтобы сократить время команды на подготовку."
+        ],
+        "enOptions": [
+          "Ask Richard to set a single format before the next reporting period begins.",
+          "Adopt Mark’s pack as the more detailed source of information for all participants.",
+          "Identify decision needs and agree the format with Mark and Nora.",
+          "Keep only Nora’s dashboard to reduce the team’s time spent preparing reports."
+        ],
+        "key": 2,
+        "why": [
+          "Команда вправе выбрать формат сама. Причины обращаться к спонсору пока нет.",
+          "Из количества отчётов непонятно, какие решения помогут принять эти данные.",
+          "Нужно понять, для каких решений нужны данные, и выбрать подходящий формат с учётом обязательных требований.",
+          "Можно сократить подготовку отчётов, но сначала нужно выяснить, какие данные требуются Марку."
+        ],
+        "enWhy": [
+          "The decision is delegated to the team; there is no current reason to send it to the sponsor.",
+          "The report count does not yet establish which decisions the reports support.",
+          "The format is chosen for actual needs within mandatory constraints.",
+          "Saving effort is useful, but Mark’s information needs have not yet been established."
+        ],
+        "fact": "Команда вправе выбрать формат. Участники ещё могут договориться.",
+        "enFact": "The format is delegated to the team and the disagreement can still be resolved together.",
+        "rule": "Выбирайте объём отчётности под решения, для которых нужны данные.",
+        "enRule": "Reporting proportionality depends on the decisions it supports.",
+        "boundary": "Если команда нарушает обязательное требование, одного согласия участников недостаточно: нужно устранить нарушение.",
+        "enBoundary": "A mandatory control breach requires a different response even if the team agrees.",
+        "reaction": [
+          "Команда вправе выбрать формат сама. Причины обращаться к спонсору пока нет.",
+          "Из количества отчётов непонятно, какие решения помогут принять эти данные.",
+          "Нужно понять, для каких решений нужны данные, и выбрать подходящий формат с учётом обязательных требований.",
+          "Можно сократить подготовку отчётов, но сначала нужно выяснить, какие данные требуются Марку."
+        ],
+        "enReaction": [
+          "The decision is delegated to the team; there is no current reason to send it to the sponsor.",
+          "The report count does not yet establish which decisions the reports support.",
+          "The format is chosen for actual needs within mandatory constraints.",
+          "Saving effort is useful, but Mark’s information needs have not yet been established."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE2",
+      "lessonId": "BE2",
+      "status": "draft",
+      "ecoTask": "BE-2",
+      "ecoTaskName": "Plan and manage project compliance",
+      "ecoTaskRu": "Обязательные требования",
+      "ecoEnabler": "Confirm project compliance requirements",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Для демонстрации предлагают новый вид данных аудитории. Обработка ещё не началась, допустимая цель и применимые требования не установлены. Что сделать первым?",
+      "en": "A new category of audience data is proposed for the demonstration. Processing has not started and its permitted purpose and applicable requirements are not established. What should you do first?",
+      "options": [
+        "Уточнить требования и допустимую цель с ответственным специалистом.",
+        "Взять небольшую выборку для репетиции и проверить требования перед полным выпуском.",
+        "Попросить Ричарда подтвердить использование данных ради ценности демонстрации.",
+        "Применить правила прошлой демонстрации, поскольку продукт и аудитория прежние."
+      ],
+      "enOptions": [
+        "Establish requirements and the permitted purpose with the responsible specialist.",
+        "Use a small rehearsal sample and check requirements before the full release.",
+        "Ask Richard to approve data use based on the demonstration’s business value.",
+        "Apply the previous demonstration’s rules since the product and audience are unchanged."
+      ],
+      "key": 0,
+      "why": [
+        "До обработки новых данных нужно выяснить, какие требования к ним относятся.",
+        "Размер выборки не определяет, можно ли использовать эти данные.",
+        "Согласие Ричарда не заменяет проверку требований к данным.",
+        "Даже для того же продукта новые данные могут требовать других правил."
+      ],
+      "enWhy": [
+        "Before processing, establish which conditions apply to the new data category.",
+        "A small volume does not establish permission to use a new data category.",
+        "Sponsor support does not establish the applicable data requirements.",
+        "The same product does not prove that old rules apply to new data."
+      ],
+      "fact": "Вы ещё не начали использовать данные и не знаете, разрешено ли это.",
+      "enFact": "Use has not started and its permissibility is unknown.",
+      "rule": "Выясните требования до начала работы, на которую они распространяются.",
+      "enRule": "Establish applicable requirements before starting a regulated action.",
+      "boundary": "Если утечка уже подтверждена, применяйте порядок реагирования. Проверку требований нельзя использовать как повод отложить ответ на нарушение.",
+      "enBoundary": "A confirmed leak invokes the response procedure, not a fresh inquiry into whether requirements are needed.",
+      "reaction": [
+        "Лена согласует короткую проверку допустимого использования до подготовки среза.",
+        "Лена останавливает подготовку: малый размер выборки не решает вопрос требований.",
+        "Ричард просит Лену пояснить ограничения, прежде чем поддержать запрос.",
+        "Лена замечает, что новый вид данных не входил в прошлую проверку."
+      ],
+      "enReaction": [
+        "Lena arranges a short permitted-use review before the segment is prepared.",
+        "Lena stops preparation: a small sample does not resolve the requirements question.",
+        "Richard asks Lena to clarify the constraints before supporting the request.",
+        "Lena notes that the new data category was not included in the previous review."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Данные за цифрами",
+      "enTitle": "The people behind the data",
+      "who": "Лена",
+      "role": "Руководитель управления данными",
+      "img": "../../prototype/media/s1.webp",
+      "pos": "73% center",
+      "episode": 3,
+      "line": "Нора оставила место для нового среза аудитории в слайдах. Репетиция через час.",
+      "enLine": "Nora left space for the new audience segment in her slides. Rehearsal is in an hour.",
+      "counter": {
+        "id": "COUNTER-BE2",
+        "lessonId": "BE2",
+        "status": "draft",
+        "ecoTask": "BE-2",
+        "ecoTaskName": "Plan and manage project compliance",
+        "ecoTaskRu": "Обязательные требования",
+        "ecoEnabler": "Determine the necessary approach and action(s) to address compliance needs",
+        "ecoSecondary": [
+          {
+            "task": "BE-4",
+            "enabler": "Collaborate with relevant stakeholders on an approach to resolve the issues"
+          }
+        ],
+        "moveType": "действовать",
+        "stem": "В другой ситуации журнал обмена подтверждает: данные с ограничением на внешнюю передачу поступают внешнему получателю. Передача продолжается. Вы дежурный координатор инцидента с правами управления этим каналом; Лена — ответственный владелец данных. Что сделать первым?",
+        "en": "In another situation the transfer log confirms that data restricted from external transfer is reaching an external recipient. The transfer is continuing. You are the incident coordinator on duty with control permissions for this channel; Lena is the accountable data owner. What should you do first?",
+        "options": [
+          "Уточнить полный состав переданных данных, затем согласовать время остановки.",
+          "Остановить передачу и уведомить ответственного по порядку реагирования.",
+          "Дождаться подтверждения Лены перед остановкой, чтобы избежать ложной тревоги.",
+          "Ограничить передачу малой выборкой до завершения анализа возможных последствий."
+        ],
+        "enOptions": [
+          "Establish the full contents of the transferred data, then agree a time to stop it.",
+          "Stop the transfer and notify the responsible owner under the response procedure.",
+          "Wait for Lena’s confirmation before stopping the transfer to avoid a false alarm.",
+          "Limit transfer to a small sample until analysis of the potential consequences is complete."
+        ],
+        "key": 1,
+        "why": [
+          "Полный список данных понадобится для разбора. Пока вы его составляете и согласуете время, передача продолжается.",
+          "Журнал подтверждает нарушение, и вы вправе управлять каналом. Сначала остановите передачу и сообщите владельцу, затем проводите полный разбор.",
+          "Журнал уже подтверждает передачу. У вас есть полномочия остановить канал, поэтому ждать Лену не нужно.",
+          "Даже малая выборка содержит данные, которые нельзя передавать наружу."
+        ],
+        "enWhy": [
+          "An inventory supports investigation, but waiting to agree a time leaves the confirmed transfer active.",
+          "An ongoing breach is confirmed and the channel is within your authority. Containment and owner notification precede full investigation.",
+          "The log already confirms the transfer; waiting for Lena leaves the channel active despite your authority.",
+          "A small sample is still an external transfer of data subject to the restriction."
+        ],
+        "fact": "Нарушение подтверждено и продолжается. Вы вправе его остановить.",
+        "enFact": "A breach is confirmed and requires immediate authorised action.",
+        "rule": "При подтверждённом нарушении действуйте по порядку реагирования.",
+        "enRule": "Respond to an established breach under the applicable procedure.",
+        "boundary": "Если обработка ещё не началась и нарушения нет, сначала определите требования.",
+        "enBoundary": "Before processing starts and without an established breach, requirements are determined first.",
+        "reaction": [
+          "Полный список данных понадобится для разбора. Пока вы его составляете и согласуете время, передача продолжается.",
+          "Журнал подтверждает нарушение, и вы вправе управлять каналом. Сначала остановите передачу и сообщите владельцу, затем проводите полный разбор.",
+          "Журнал уже подтверждает передачу. У вас есть полномочия остановить канал, поэтому ждать Лену не нужно.",
+          "Даже малая выборка содержит данные, которые нельзя передавать наружу."
+        ],
+        "enReaction": [
+          "An inventory supports investigation, but waiting to agree a time leaves the confirmed transfer active.",
+          "An ongoing breach is confirmed and the channel is within your authority. Containment and owner notification precede full investigation.",
+          "The log already confirms the transfer; waiting for Lena leaves the channel active despite your authority.",
+          "A small sample is still an external transfer of data subject to the restriction."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE4",
+      "lessonId": "BE4",
+      "status": "draft",
+      "ecoTask": "BE-4",
+      "ecoTaskName": "Remove impediments and manage issues",
+      "ecoTaskRu": "Препятствия и проблемы",
+      "ecoEnabler": "Determine and apply an intervention strategy to remove/minimize impediments",
+      "ecoSecondary": [],
+      "moveType": "действовать",
+      "stem": "Две задачи третий день ждут доступа к данным. Журнал изменений показывает: разрешение сняли по ошибке. Владелец данных согласовал прежний уровень доступа, проверка безопасности завершена. Права администратора проекта есть у вас. Что сделать первым?",
+      "en": "Two tasks have waited three days for data access. The change log shows that permission was removed by mistake. The data owner has approved the previous access level and the security check is complete. You hold the project’s administrator permissions. What should you do first?",
+      "options": [
+        "Перенести обе задачи в следующую итерацию и согласовать обновлённый план.",
+        "Организовать восстановление доступа и проверить, что задачи разблокированы.",
+        "Вынести задержку Ричарду, чтобы он подтвердил приоритет восстановления.",
+        "Провести встречу о сбое доступа до внесения изменений в разрешения."
+      ],
+      "enOptions": [
+        "Move both tasks to the next iteration and agree an updated delivery plan.",
+        "Coordinate access restoration and check that the tasks are unblocked.",
+        "Raise the delay with Richard so he can confirm the restoration priority.",
+        "Hold a meeting about the access failure before changing the permissions."
+      ],
+      "key": 1,
+      "why": [
+        "После переноса задач доступ останется закрытым, хотя вы уже можете устранить причину.",
+        "Причина известна, способ восстановления согласован. Осталось восстановить доступ и проверить, что команда может работать.",
+        "У вас есть полномочия и согласованный приоритет. Дополнительное решение Ричарда задержит восстановление.",
+        "Разбор поможет избежать повторения ошибки, но доступ можно восстановить до этой встречи."
+      ],
+      "enWhy": [
+        "Deferral does not remove the known impediment although a ready solution is available.",
+        "The cause and authorised remedy are known; execute it and verify the result.",
+        "Priority and authority are established; another escalation delays the remedy.",
+        "Review helps prevent recurrence but should not delay the ready remedy."
+      ],
+      "fact": "Вы знаете причину. Владелец данных согласовал восстановление, проверка безопасности завершена.",
+      "enFact": "The cause is known and restoration is checked and authorised.",
+      "rule": "Устраните известное препятствие в пределах своих полномочий и проверьте результат.",
+      "enRule": "Remove a known impediment within your authority and verify the effect.",
+      "boundary": "Если вы не знаете причину или не уверены в безопасности исправления, сначала разберитесь с этим.",
+      "enBoundary": "If the cause or intervention safety is unknown, establish them first.",
+      "reaction": [
+        "Сергей видит новый план, но команда по-прежнему не может получить доступ.",
+        "Доступ восстановлен; команда проверяет, что обе задачи снова можно выполнять.",
+        "Ричард спрашивает, почему согласованное восстановление ещё не началось.",
+        "На встрече снова обсуждают известную ошибку; задачи всё ещё ждут доступа."
+      ],
+      "enReaction": [
+        "Sergey sees the tasks moved, but the reason for waiting on access remains.",
+        "Access is restored; the team checks that work on both tasks can resume.",
+        "Richard asks why the agreed restoration has not started yet.",
+        "The meeting discusses the known error again while the tasks still await access."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Проект почти не движется",
+      "enTitle": "The line barely moves",
+      "who": "Майя",
+      "role": "Продуктовый аналитик",
+      "img": "../media/maya-analyst.webp",
+      "pos": "center",
+      "episode": 4,
+      "line": "Сергей уже третий раз спрашивает меня про эти две задачи. Что ему ответить?",
+      "enLine": "Sergey has asked me about those two tasks for the third time. What should I tell him?",
+      "counter": {
+        "id": "COUNTER-BE4",
+        "lessonId": "BE4",
+        "status": "draft",
+        "ecoTask": "BE-4",
+        "ecoTaskName": "Remove impediments and manage issues",
+        "ecoTaskRu": "Препятствия и проблемы",
+        "ecoEnabler": "Evaluate the impact of impediments",
+        "ecoSecondary": [],
+        "moveType": "оценить",
+        "stem": "В другой десятидневной итерации стартовый объём — 80 единиц. На шестой день осталось 63 при плановых 32. Две задачи ждут доступа, но их вклад в отставание неизвестен. Что сделать первым?",
+        "en": "In another ten-day iteration the starting scope is 80 units. On day six, 63 remain against a planned 32. Two tasks await access, but their contribution to the gap is unknown. What should you do first?",
+        "options": [
+          "Убрать две ожидающие задачи из итерации и согласовать новый план завершения.",
+          "Выяснить препятствия с командой и оценить их вклад в отставание.",
+          "Сообщить Ричарду о риске срыва итерации и запросить вмешательство в приоритеты.",
+          "Сохранить текущий план до обзора итерации, когда будет известен итоговый объём."
+        ],
+        "enOptions": [
+          "Remove the two waiting tasks from the iteration and agree a revised completion plan.",
+          "Identify blockers with the team and assess their contribution to the gap.",
+          "Tell Richard the iteration may be missed and request intervention in priorities.",
+          "Keep the current plan until the iteration review reveals the final amount of work."
+        ],
+        "key": 1,
+        "why": [
+          "Изменение плана до оценки причин может скрыть проблему, с которой команда ещё не разобралась.",
+          "Выяснив, какие препятствия задерживают работу и насколько, вы сможете выбрать подходящие меры.",
+          "Возможно, потребуется помощь Ричарда. Но вы ещё не знаете влияние препятствий и какое решение от него нужно.",
+          "Задержка уже видна. Ожидание до обзора итерации оставит её без внимания."
+        ],
+        "enWhy": [
+          "Replanning before assessment may hide the problem without removing its cause.",
+          "The impediments’ impact must be understood to choose a proportionate intervention.",
+          "Escalation may be needed, but blocker impact and the required decision are not established.",
+          "Waiting leaves an observed delay unaddressed."
+        ],
+        "fact": "Отставание составляет 31 единицу. По одному графику причину не определить.",
+        "enFact": "The gap is 31 units, but the chart does not establish its cause.",
+        "rule": "После измерения отставания выясните его причины.",
+        "enRule": "Measuring a deviation and establishing its causes are different steps.",
+        "boundary": "Если причина известна и исправление согласовано, можно переходить к действию.",
+        "enBoundary": "A known cause and authorised remedy allow a move to action.",
+        "reaction": [
+          "Изменение плана до оценки причин может скрыть проблему, с которой команда ещё не разобралась.",
+          "Выяснив, какие препятствия задерживают работу и насколько, вы сможете выбрать подходящие меры.",
+          "Возможно, потребуется помощь Ричарда. Но вы ещё не знаете влияние препятствий и какое решение от него нужно.",
+          "Задержка уже видна. Ожидание до обзора итерации оставит её без внимания."
+        ],
+        "enReaction": [
+          "Replanning before assessment may hide the problem without removing its cause.",
+          "The impediments’ impact must be understood to choose a proportionate intervention.",
+          "Escalation may be needed, but blocker impact and the required decision are not established.",
+          "Waiting leaves an observed delay unaddressed."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+        "chart": {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "planned": [
+            80,
+            72,
+            64,
+            56,
+            48,
+            40,
+            32
+          ],
+          "actual": [
+            80,
+            76,
+            71,
+            64,
+            64,
+            64,
+            63
+          ],
+          "iterationDays": 10
+        }
+      }
+    },
+    {
+      "id": "SCENE-BE5",
+      "lessonId": "BE5",
+      "status": "draft",
+      "ecoTask": "BE-5",
+      "ecoTaskName": "Plan and manage risk",
+      "ecoTaskRu": "Управление рисками",
+      "ecoEnabler": "Execute a risk management plan",
+      "ecoSecondary": [],
+      "moveType": "действовать",
+      "stem": "Поставщик подтвердил задержку на две недели. Для задержек свыше семи дней в плане предусмотрен резервный поставщик; его готовность и условия подтверждены. Замена укладывается в выделенный резерв и ваши полномочия по закупкам. Что сделать первым?",
+      "en": "The supplier confirms a two-week delay. The plan provides for a backup supplier when delays exceed seven days; its readiness and terms are confirmed. The replacement is within the allocated reserve and your procurement authority. What should you do first?",
+      "options": [
+        "Пересмотреть альтернативы на общей встрече перед переходом к резервной схеме.",
+        "Запросить у Ричарда дополнительное подтверждение смены поставщика на эту неделю.",
+        "Дождаться уточнённого прогноза поставщика, сохранив резерв в готовности.",
+        "Запустить резервный план, проверить результат и уведомить участников."
+      ],
+      "enOptions": [
+        "Revisit alternatives at a joint meeting before moving to the contingency arrangement.",
+        "Request Richard’s additional confirmation of the supplier switch for this week.",
+        "Wait for the supplier’s revised forecast while keeping the contingency ready.",
+        "Activate the contingency, verify its result and notify participants."
+      ],
+      "key": 3,
+      "why": [
+        "В плане уже есть ответ на такую задержку. Готовность резервного поставщика и условия работы с ним проверены.",
+        "Утверждённый план позволяет вам запустить резерв при этой задержке.",
+        "Поставщик подтвердил задержку сверх порога. Ожидание нового прогноза откладывает согласованный ответ.",
+        "Вы применяете подходящий резервный план в пределах своих полномочий."
+      ],
+      "enWhy": [
+        "The plan already provides an applicable response to the confirmed delay; the backup supplier’s readiness and terms are checked.",
+        "The approved plan already delegates activation to you at this trigger.",
+        "The confirmed delay already meets the trigger; waiting postpones the agreed response.",
+        "You execute an applicable plan within the assigned authority."
+      ],
+      "fact": "Задержка превысила порог плана. Вы вправе задействовать резерв.",
+      "enFact": "The trigger has occurred and activation authority is delegated to the player.",
+      "rule": "Применяйте согласованный план ответа на риск, когда наступило условие его запуска.",
+      "enRule": "A prepared risk response is activated when its defined trigger occurs.",
+      "boundary": "Если ответ на риск ещё не выбран или условия изменились, сначала оцените ситуацию.",
+      "enBoundary": "If no response is selected or conditions have changed, assessment comes first.",
+      "reaction": [
+        "Марк готовит новую встречу, пока согласованный резерв остаётся без запуска.",
+        "Ричард возвращает утверждённый план с уже указанными полномочиями.",
+        "Марк сообщает, что подтверждённая задержка всё ещё превышает порог плана.",
+        "Марк подключает резерв по вашему распоряжению; команда проверяет переход."
+      ],
+      "enReaction": [
+        "Mark prepares another meeting while the agreed contingency remains inactive.",
+        "Richard returns the approved plan with its authority already specified.",
+        "Mark reports that the confirmed delay still exceeds the plan’s trigger.",
+        "Mark connects the contingency under your instruction and the team verifies the switch."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Звонок, к которому готовились",
+      "enTitle": "The call we planned for",
+      "who": "Марк",
+      "role": "Директор по ИТ",
+      "img": "../media/be5-risk-response.webp",
+      "pos": "35% center",
+      "episode": 5,
+      "line": "Поставщик только что подтвердил: две недели задержки. Я жду вашего решения.",
+      "enLine": "The supplier just confirmed a two-week delay. I am waiting for your decision.",
+      "counter": {
+        "id": "COUNTER-BE5",
+        "lessonId": "BE5",
+        "status": "draft",
+        "ecoTask": "BE-5",
+        "ecoTaskName": "Plan and manage risk",
+        "ecoTaskRu": "Управление рисками",
+        "ecoEnabler": "Analyze risks",
+        "ecoSecondary": [],
+        "moveType": "оценить",
+        "stem": "В новом контракте поставщик лишь допускает задержку через шесть недель. Вероятность и влияние не оценены, резервный ответ не выбран. Что сделать первым?",
+        "en": "Under a new contract the supplier only anticipates a possible delay in six weeks. Probability and impact are unassessed and no contingency response is selected. What should you do first?",
+        "options": [
+          "Оценить риск с владельцем и подготовить ответ с условием запуска.",
+          "Сразу перейти к запасному поставщику, чтобы сохранить дату демонстрации.",
+          "Запросить у Ричарда резерв бюджета на полную замену поставщика в проекте.",
+          "Включить предупреждение в ежемесячный отчёт и ждать подтверждения задержки."
+        ],
+        "enOptions": [
+          "Assess the risk with its owner and prepare a response with a trigger.",
+          "Switch to a backup supplier now in order to preserve the demonstration date.",
+          "Request a budget reserve from Richard for a full supplier replacement in the project.",
+          "Include the warning in the monthly report and wait for confirmation of the delay."
+        ],
+        "key": 0,
+        "why": [
+          "Оценка поможет выбрать подходящий ответ до того, как риск наступит.",
+          "Вы ещё не сравнили затраты и пользу замены с вероятностью и последствиями задержки.",
+          "Без оценки вы не можете обосновать ни размер резерва, ни необходимость его выделения.",
+          "Риск стоит записать, но для выбора ответа нужно его проанализировать."
+        ],
+        "enWhy": [
+          "Assessment enables a proportionate response before the event occurs.",
+          "The cost and benefit of an immediate switch have not been compared with the risk.",
+          "The reserve’s size and need are not yet supported by assessment.",
+          "Recording alone is insufficient: the unknown risk needs analysis before response selection."
+        ],
+        "fact": "Задержка пока возможна. Вы не оценили риск и не выбрали ответ.",
+        "enFact": "This is a possible event without assessment or a prepared response.",
+        "rule": "Сначала оцените предупреждение о риске. Условие запуска готового плана проверяют, если такой план уже есть.",
+        "enRule": "Do not confuse a risk warning with a prepared plan’s activation trigger.",
+        "boundary": "Если условие запуска действующего плана выполнено, можно переходить к его применению.",
+        "enBoundary": "A confirmed trigger in an applicable plan changes the next step to execution.",
+        "reaction": [
+          "Оценка поможет выбрать подходящий ответ до того, как риск наступит.",
+          "Вы ещё не сравнили затраты и пользу замены с вероятностью и последствиями задержки.",
+          "Без оценки вы не можете обосновать ни размер резерва, ни необходимость его выделения.",
+          "Риск стоит записать, но для выбора ответа нужно его проанализировать."
+        ],
+        "enReaction": [
+          "Assessment enables a proportionate response before the event occurs.",
+          "The cost and benefit of an immediate switch have not been compared with the risk.",
+          "The reserve’s size and need are not yet supported by assessment.",
+          "Recording alone is insufficient: the unknown risk needs analysis before response selection."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE6",
+      "lessonId": "BE6",
+      "status": "draft",
+      "ecoTask": "BE-4",
+      "ecoTaskName": "Remove impediments and manage issues",
+      "ecoTaskRu": "Препятствия и проблемы",
+      "ecoEnabler": "Collaborate with relevant stakeholders on an approach to resolve the issues",
+      "ecoSecondary": [
+        {
+          "task": "BE-6",
+          "enabler": "Utilize lessons learned",
+          "contextOnly": true
+        }
+      ],
+      "moveType": "действовать",
+      "stem": "В пилоте Trend Radar дефект сейчас нарушает работу вечерней смены. Предыдущая версия прошла проверку и совместима с текущими данными. Регламент позволяет вам выбирать версию при таком сбое; владелец сервиса подтвердил ваши полномочия. Логи хранятся отдельно от версий сервиса. Что сделать первым?",
+      "en": "In the Trend Radar pilot a defect is currently disrupting the evening shift. The previous version has been tested and is compatible with current data. Under the procedure, choosing the service version during this type of failure is within your authority; the service owner has confirmed this. Logs are stored separately from service versions. What should you do first?",
+      "options": [
+        "Организовать откат, проверить восстановление и назначить разбор причин.",
+        "Собрать команду для полного анализа причин до изменения текущей версии сервиса.",
+        "Запросить у Ричарда согласие на откат, приложив сведения о текущем нарушении.",
+        "Продолжить наблюдение до конца смены, чтобы собрать данные о масштабе сбоя."
+      ],
+      "enOptions": [
+        "Coordinate rollback, verify recovery and schedule a cause review.",
+        "Gather the team for a full cause analysis before changing the current service version.",
+        "Request Richard’s consent for rollback with details of the current disruption.",
+        "Continue observing until the shift ends to collect data on the scale of the failure."
+      ],
+      "key": 0,
+      "why": [
+        "Вы можете восстановить работу откатом и сохранить логи для разбора причин.",
+        "Пока команда проводит полный анализ, смена продолжает работать со сбоем. Проверенная предыдущая версия уже доступна.",
+        "Владелец сервиса подтвердил ваши полномочия. Дополнительное согласие Ричарда не требуется.",
+        "Пока вы наблюдаете, сбой мешает смене. Логи для анализа сохранятся и после отката."
+      ],
+      "enWhy": [
+        "Authorised containment restores operation and preserves evidence for analysis.",
+        "Detailed analysis leaves the live service disrupted despite a ready rollback.",
+        "The necessary permission has already been obtained from the service owner.",
+        "Observation prolongs the impact; evidence remains available after rollback."
+      ],
+      "fact": "Сбой мешает работе сейчас. Вы вправе использовать проверенный способ восстановления.",
+      "enFact": "A live failure is occurring and safe containment is already authorised.",
+      "rule": "После устранения текущего сбоя разберите причины и улучшите процесс.",
+      "enRule": "Containing an active issue does not replace subsequent process improvement.",
+      "boundary": "Если срочно восстанавливать работу не нужно, начните с причин повторяющейся проблемы.",
+      "enBoundary": "Without urgent impact, selecting a lasting improvement begins with causes.",
+      "reaction": [
+        "Команда выполняет откат и проверяет работу смены; логи остаются для разбора.",
+        "Сергей разбирается в причинах, пока вечерняя смена продолжает работать со сбоем.",
+        "Ричард спрашивает, почему разрешение владельца сервиса оказалось недостаточным.",
+        "Очередь поддержки растёт, хотя разрешённый способ сдерживания уже готов."
+      ],
+      "enReaction": [
+        "The team rolls back and verifies shift operations; logs remain for the review.",
+        "Sergey assembles the analysis while the evening shift continues experiencing the failure.",
+        "Richard asks why the service owner’s authorisation was insufficient.",
+        "The support queue grows although an authorised containment method is ready."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Это уже исправляли",
+      "enTitle": "We fixed this last week",
+      "who": "Сергей",
+      "role": "Технический лидер",
+      "img": "../media/be6-improvement.webp",
+      "pos": "36% center",
+      "episode": 6,
+      "line": "Вечерняя смена снова звонит. У нас уже очередь сообщений в чате поддержки.",
+      "enLine": "The evening shift is calling again. Messages are piling up in the support chat.",
+      "counter": {
+        "id": "COUNTER-BE6",
+        "lessonId": "BE6",
+        "status": "draft",
+        "ecoTask": "BE-6",
+        "ecoTaskName": "Continuous improvement",
+        "ecoTaskRu": "Непрерывное улучшение",
+        "ecoEnabler": "Help ensure continuous improvement processes are updated",
+        "ecoSecondary": [],
+        "moveType": "оценить",
+        "stem": "Теперь сервис работает нормально. Перед завершением трёх последних итераций тестировщики находили один и тот же тип дефекта. Команда исправляла каждый случай, но в следующей итерации дефект появлялся снова. Причина повторения неизвестна. Что следует сделать?",
+        "en": "The service is now operating normally. Near the end of each of the last three iterations, testers found the same type of defect. The team fixed each instance, but the defect returned in the next iteration. The cause of recurrence is unknown. What should you do?",
+        "options": [
+          "Разобрать причины, проверить небольшое изменение и закрепить сработавшее.",
+          "Добавить к каждой итерации вечер финального тестирования до исчезновения дефекта.",
+          "Назначить опытного сотрудника для повторной проверки всех изменений такого типа.",
+          "Записать опыт исправления дефектов и обсудить его на итоговой встрече проекта."
+        ],
+        "enOptions": [
+          "Analyse causes, trial a small change and embed what works in the process.",
+          "Add an evening of final testing to every iteration until the defect stops appearing.",
+          "Assign an experienced person to recheck every change of this type from now on.",
+          "Collect the defects as lessons and discuss them at the project’s closing meeting."
+        ],
+        "key": 0,
+        "why": [
+          "Вы проверите, помогает ли изменение устранить причину, и закрепите удачное решение в работе команды.",
+          "Дополнительное тестирование поможет находить дефекты, но причина их повторения может остаться.",
+          "Ручная перепроверка не объяснит, почему дефект возвращается.",
+          "Команда может использовать этот опыт уже сейчас. Ожидание закрытия проекта откладывает улучшение."
+        ],
+        "enWhy": [
+          "The change is tested against the cause and then embedded in the working process.",
+          "More testing may catch defects without removing the source of recurrence.",
+          "Manual rechecking does not explain why the defect keeps returning.",
+          "Lessons are useful now; waiting for closure postpones an available improvement."
+        ],
+        "fact": "Причина повторения неизвестна. Срочно устранять действующий сбой не требуется.",
+        "enFact": "The recurrence cause is unknown and urgent containment is not required.",
+        "rule": "Проверьте улучшение на данных, затем закрепите его в рабочем процессе.",
+        "enRule": "A lasting improvement is tested with evidence and embedded in the process.",
+        "boundary": "При действующем инциденте сначала может потребоваться остановить его развитие в пределах своих полномочий.",
+        "enBoundary": "An active incident may first require authorised containment.",
+        "reaction": [
+          "Вы проверите, помогает ли изменение устранить причину, и закрепите удачное решение в работе команды.",
+          "Дополнительное тестирование поможет находить дефекты, но причина их повторения может остаться.",
+          "Ручная перепроверка не объяснит, почему дефект возвращается.",
+          "Команда может использовать этот опыт уже сейчас. Ожидание закрытия проекта откладывает улучшение."
+        ],
+        "enReaction": [
+          "The change is tested against the cause and then embedded in the working process.",
+          "More testing may catch defects without removing the source of recurrence.",
+          "Manual rechecking does not explain why the defect keeps returning.",
+          "Lessons are useful now; waiting for closure postpones an available improvement."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 6. PMBOK 8 §2.1.6.5–6, §3.4.4; PDF 128–131, 214. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 6. PMBOK 8 §2.1.6.5–6, §3.4.4; PDF 128–131, 214. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE7",
+      "lessonId": "BE7",
+      "status": "draft",
+      "ecoTask": "BE-7",
+      "ecoTaskName": "Support organizational change",
+      "ecoTaskRu": "Организационные изменения",
+      "ecoEnabler": "Assess organizational culture",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "С Trend Radar редакторы вечерней смены должны принимать решения по новому порядку. Доступ выдан, но редакторы редко используют сервис; причины неизвестны. Амир отвечает за внедрение. Ричард предлагает обязательный ежедневный вход. Что сделать первым?",
+      "en": "Trend Radar changes how evening editorial decisions are made. Access is available but editors rarely use the service; the reasons are unknown. Amir owns the rollout. Richard proposes mandatory daily logins. What should you do first?",
+      "options": [
+        "Ввести ежедневный вход и проверять использование на встречах вечерней смены.",
+        "Повторить обучение для всей смены, чтобы выровнять знание функций сервиса.",
+        "С Амиром изучить привычки команды и причины отказа от нового порядка.",
+        "Остановить внедрение в вечерней смене и вернуть ей прежний порядок решений."
+      ],
+      "enOptions": [
+        "Require daily logins and review usage at the evening shift’s regular meetings.",
+        "Repeat training for the whole shift to align their knowledge of the service’s features.",
+        "With Amir, examine work habits and barriers to adopting the new way of working.",
+        "Stop rollout in the evening shift and restore its previous decision-making process."
+      ],
+      "key": 2,
+      "why": [
+        "Число входов показывает, открывают ли редакторы сервис. Оно не объясняет, почему они не принимают новый порядок работы.",
+        "Обучение поможет, если редакторам не хватает знаний. Эту причину вы ещё не установили.",
+        "Наблюдение за работой и обсуждение привычек помогут понять, что мешает редакторам принять новый порядок.",
+        "Вы ещё не выяснили, что мешает внедрению и какая поддержка нужна смене. Пока отказываться от него рано."
+      ],
+      "enWhy": [
+        "A login measures activity but does not establish the reason for resistance to the new process.",
+        "Training fits a knowledge gap, which has not yet been established.",
+        "Examining habits and decision-making helps identify cultural barriers to the change.",
+        "Abandoning rollout is premature without understanding barriers and possible support."
+      ],
+      "fact": "Рабочий порядок меняется, но причины отказа от него неизвестны.",
+      "enFact": "Ways of working are changing, but the reasons for non-adoption are not established.",
+      "rule": "Выбирайте поддержку с учётом того, что мешает людям принять изменение.",
+      "enRule": "Change support is chosen based on barriers, not login counts.",
+      "boundary": "Если вы оценили влияние изменения и проверили готовность команды, переходите к согласованному плану внедрения.",
+      "enBoundary": "When impact and readiness are already checked, the transition plan should be executed.",
+      "reaction": [
+        "Отчёт показывает больше входов, но Амир ещё не знает, изменился ли рабочий порядок.",
+        "Редакторы снова слушают обучение; причины редкого использования пока не проверены.",
+        "Амир организует наблюдение за сменой и обсуждение её привычных решений.",
+        "Ричард просит объяснить отказ от пилота: барьеры ещё не исследованы."
+      ],
+      "enReaction": [
+        "The report shows more logins but Amir still does not know whether work habits changed.",
+        "Editors attend training again while the reasons for low use remain untested.",
+        "Amir arranges observation of the shift and discussion of its usual decisions.",
+        "Richard asks why the pilot was abandoned before its barriers were investigated."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "После девяти никто не заходит",
+      "enTitle": "Nobody logs in after nine",
+      "who": "Амир",
+      "role": "Руководитель внедрения",
+      "img": "../media/amir-editor.webp",
+      "pos": "center",
+      "episode": 7,
+      "line": "Вечерняя смена открыла Trend Radar дважды за неделю. Ричард уже спрашивал об этом.",
+      "enLine": "The evening shift opened Trend Radar twice this week. Richard has already asked about it.",
+      "counter": {
+        "id": "COUNTER-BE7",
+        "lessonId": "BE7",
+        "status": "draft",
+        "ecoTask": "BE-7",
+        "ecoTaskName": "Support organizational change",
+        "ecoTaskRu": "Организационные изменения",
+        "ecoEnabler": "Evaluate the impact of organizational change on the project and determine required actions",
+        "ecoSecondary": [],
+        "moveType": "действовать",
+        "stem": "Объединение двух редакционных групп вступило в силу. Влияние на Trend Radar оценено, общий рабочий процесс и новые роли согласованы, обучение завершено. Команды готовы к первой совместной смене; у Амира есть ресурсы для поддержки. Что сделать следующим?",
+        "en": "The merger of two editorial groups has taken effect. Its impact on Trend Radar is assessed, the shared workflow and new roles are agreed, and training is complete. The teams are ready for their first joint shift; Amir has resources to provide support. What should you do next?",
+        "options": [
+          "Перенести переход на месяц и провести ещё один общий опрос сотрудников.",
+          "Попросить Ричарда заново подтвердить целесообразность объединения групп.",
+          "Начать согласованный переход с Амиром и отслеживать возникающие проблемы.",
+          "Сохранить прежние роли до следующего отчёта об использовании Trend Radar."
+        ],
+        "enOptions": [
+          "Defer the transition by a month and run another survey of all employees.",
+          "Ask Richard to reconfirm the business case for merging the two groups.",
+          "Start the agreed transition with Amir and monitor emerging issues.",
+          "Keep the old roles until the next report on Trend Radar usage is available."
+        ],
+        "key": 2,
+        "why": [
+          "Реорганизация вступила в силу, команды подготовлены. В условии нет нерешённой проблемы, ради которой нужен общий опрос и месяц отсрочки.",
+          "По условиям задачи повторно утверждать объединение не требуется.",
+          "Команды знают, что изменится, и готовы работать по согласованному плану.",
+          "Сохраняя старые роли, вы откладываете подготовленный переход без указанной причины."
+        ],
+        "enWhy": [
+          "The reorganisation has taken effect and the teams are prepared. A general survey does not address a specific unresolved issue requiring a month’s deferral.",
+          "The merger decision does not require reapproval under the stated conditions.",
+          "Required actions for the organisational change are defined and ready to execute.",
+          "Old roles conflict with the prepared transition and defer it without justification."
+        ],
+        "fact": "Реорганизация вступила в силу. Влияние оценено, команды и поддержка готовы.",
+        "enFact": "The reorganisation has taken effect, impact is assessed, and the teams and support are ready.",
+        "rule": "Помогите командам пройти подготовленный переход и следите за проблемами.",
+        "enRule": "Supporting change includes executing the prepared transition.",
+        "boundary": "Если влияние реорганизации на проект неизвестно, сначала оцените его.",
+        "enBoundary": "When reorganisation impact is unknown, assess the implications for the project first.",
+        "reaction": [
+          "Реорганизация вступила в силу, команды подготовлены. В условии нет нерешённой проблемы, ради которой нужен общий опрос и месяц отсрочки.",
+          "По условиям задачи повторно утверждать объединение не требуется.",
+          "Команды знают, что изменится, и готовы работать по согласованному плану.",
+          "Сохраняя старые роли, вы откладываете подготовленный переход без указанной причины."
+        ],
+        "enReaction": [
+          "The reorganisation has taken effect and the teams are prepared. A general survey does not address a specific unresolved issue requiring a month’s deferral.",
+          "The merger decision does not require reapproval under the stated conditions.",
+          "Required actions for the organisational change are defined and ready to execute.",
+          "Old roles conflict with the prepared transition and defer it without justification."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    },
+    {
+      "id": "SCENE-BE8",
+      "lessonId": "BE8",
+      "status": "draft",
+      "ecoTask": "BE-8",
+      "ecoTaskName": "Evaluate external business environment changes",
+      "ecoTaskRu": "Внешние изменения",
+      "ecoEnabler": "Assess and prioritize the impact on project scope/backlog based on changes in the external business environment",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Крупнейшие поставщики новостных данных переходят на плату за каждый запрос со следующего квартала. Бизнес-кейс Trend Radar основан на фиксированной цене. Влияние на объём и бэклог не оценено. Что сделать первым?",
+      "en": "Major news-data providers are moving to per-request pricing next quarter. Trend Radar’s business case assumes a fixed price. Impact on scope and backlog is unassessed. What should you do first?",
+      "options": [
+        "Зарегистрировать рост стоимости и вернуться к нему с началом нового квартала.",
+        "Оценить влияние на бэклог и бизнес-кейс, предложить варианты тем, кто решает.",
+        "Покрыть разницу из резерва, чтобы сохранить согласованный объём демонстрации.",
+        "Перевести сервис к самому дешёвому поставщику до следующего квартального обзора."
+      ],
+      "enOptions": [
+        "Register the cost increase and return to it when the new quarter starts.",
+        "Assess backlog and business-case impact and prepare options for the owners.",
+        "Cover the difference from the reserve to keep the agreed demonstration scope intact.",
+        "Move the service to the cheapest provider before the next quarterly review."
+      ],
+      "key": 1,
+      "why": [
+        "Запись о росте цены не объяснит, как он повлияет на проект. Нужна оценка.",
+        "Оценив влияние на объём и приоритеты, вы дадите владельцам решения данные для выбора.",
+        "Даже с резервом прежний объём работ и модель затрат могут стать невыгодными.",
+        "Сравнения цен недостаточно. Нужно понять, как смена поставщика повлияет на продукт."
+      ],
+      "enWhy": [
+        "Recording does not replace assessment of a confirmed external change’s impact.",
+        "Linking external change to scope and priorities provides a basis for decision-making.",
+        "A reserve does not establish viability of the old scope and cost model.",
+        "One option’s price is insufficient for selection without assessing its product impact."
+      ],
+      "fact": "Поставщики меняют цены. Как это повлияет на объём работ, вы ещё не знаете.",
+      "enFact": "A market assumption has changed and its scope implications are unknown.",
+      "rule": "Оцените, как внешнее изменение повлияет на объём, ценность и приоритеты проекта.",
+      "enRule": "Translate external change into assessment of scope, value and priorities.",
+      "boundary": "Если вы уже оценили и согласовали подходящие изменения, переходите к их выполнению.",
+      "enBoundary": "If an allowed adaptation is already assessed and approved, proceed to execute it.",
+      "reaction": [
+        "Ричард видит запись о цене, но не получает вариантов к пятничному решению.",
+        "Нора и Ричард получают варианты изменения бэклога и их влияние на ценность.",
+        "Финансист спрашивает, хватит ли резерва при прежней модели использования данных.",
+        "Нора спрашивает, сохраняет ли дешёвый источник нужные функции продукта."
+      ],
+      "enReaction": [
+        "Richard sees a price entry but receives no options for Friday’s decision.",
+        "Nora and Richard receive backlog adaptation options and their value implications.",
+        "Finance asks whether the reserve covers the existing data-use model.",
+        "Nora asks whether the cheap provider preserves the required product features."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 8. PMBOK 8 §2.1.1, §2.1.4; PDF 115–118. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 8. PMBOK 8 §2.1.1, §2.1.4; PDF 115–118. Sections relevant to the topic. The answer still requires review by two PMP experts.",
+      "title": "Цена пятницы",
+      "enTitle": "The price of Friday",
+      "who": "Ричард",
+      "role": "Генеральный директор",
+      "img": "../../prototype/media/s5.webp",
+      "pos": "72% center",
+      "episode": 8,
+      "line": "Совет увидит новые цены на данные в пятницу. Мне нужно понимать, что им сказать.",
+      "enLine": "The board will see the new data prices on Friday. I need to know what to tell them.",
+      "counter": {
+        "id": "COUNTER-BE8",
+        "lessonId": "BE8",
+        "status": "draft",
+        "ecoTask": "BE-3",
+        "ecoTaskName": "Manage and control changes",
+        "ecoTaskRu": "Управление изменениями",
+        "ecoEnabler": "Implement approved changes to the project",
+        "ecoSecondary": [
+          {
+            "task": "BE-8",
+            "enabler": "Assess and prioritize the impact on project scope/backlog based on changes in the external business environment",
+            "contextOnly": true
+          }
+        ],
+        "moveType": "действовать",
+        "stem": "Поставщик ввёл новую модель цен. Её влияние на продукт оценено; Нора и Ричард утвердили обновлённый бэклог и критерии результата по правилам проекта. Бюджет выделен, команда доступна. Вы вправе управлять работами по этому бэклогу. Что сделать следующим?",
+        "en": "The supplier has introduced a new pricing model. Its product impact is assessed; Nora and Richard have approved the updated backlog and outcome criteria under the project rules. Budget is allocated and the team is available. Managing work from this backlog is within your authority. What should you do next?",
+        "options": [
+          "Выполнить согласованные изменения и проверить результат по обновлённым целям.",
+          "Повторно сравнить все предложения рынка перед началом изменения бэклога.",
+          "Сохранить прежний бэклог до первого счёта по новой модели ценообразования.",
+          "Запросить у Ричарда дополнительную встречу для подтверждения выделенного бюджета."
+        ],
+        "enOptions": [
+          "Execute the approved adaptation and verify results against the updated objectives.",
+          "Compare all market offers again before starting the backlog change.",
+          "Keep the previous backlog until the first invoice under the new pricing model arrives.",
+          "Request another meeting with Richard to confirm the budget already allocated."
+        ],
+        "key": 0,
+        "why": [
+          "Оценка завершена, полномочия определены. Вы можете выполнить согласованное изменение.",
+          "Оценку рынка уже учли в согласованном бэклоге. Из условия не следует, что нужно сравнивать предложения заново.",
+          "Оставив прежний бэклог, вы не выполните согласованное изменение.",
+          "Утверждённый план не требует повторно подтверждать бюджет."
+        ],
+        "enWhy": [
+          "Assessment and authority are established; the task is now executing the agreed change.",
+          "A market comparison does not address an unresolved question in the scenario: the assessment already informed the agreed backlog.",
+          "The old backlog ignores the adaptation decision already made.",
+          "Reconfirmation of funding is not required by the approved plan’s conditions."
+        ],
+        "fact": "Бэклог и критерии согласованы, команда и бюджет доступны. Работы в ваших полномочиях.",
+        "enFact": "The backlog and criteria are approved, budget and team are available, and the work is within your authority.",
+        "rule": "После оценки внешнего изменения и согласования ответа переходите к выполнению.",
+        "enRule": "Assessing external change and executing adaptation are different decisions.",
+        "boundary": "В этой ситуации проверяется BE-3: выполнение согласованного изменения. Внешние условия связаны с BE-8, но их оценка здесь уже завершена.",
+        "enBoundary": "This counterexample assesses BE-3. Its context relates to BE-8 but does not replace external-change assessment.",
+        "reaction": [
+          "Оценка завершена, полномочия определены. Вы можете выполнить согласованное изменение.",
+          "Оценку рынка уже учли в согласованном бэклоге. Из условия не следует, что нужно сравнивать предложения заново.",
+          "Оставив прежний бэклог, вы не выполните согласованное изменение.",
+          "Утверждённый план не требует повторно подтверждать бюджет."
+        ],
+        "enReaction": [
+          "Assessment and authority are established; the task is now executing the agreed change.",
+          "A market comparison does not address an unresolved question in the scenario: the assessment already informed the agreed backlog.",
+          "The old backlog ignores the adaptation decision already made.",
+          "Reconfirmation of funding is not required by the approved plan’s conditions."
+        ],
+        "sourceNote": "ECO 2026, Business Environment, задача 3. PMBOK 8 §2.1.6.8; PDF 133–135. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+        "enSourceNote": "ECO 2026, Business Environment, task 3. PMBOK 8 §2.1.6.8; PDF 133–135. Sections relevant to the topic. The answer still requires review by two PMP experts."
+      }
+    }
+  ],
+  "exam": [
+    {
+      "id": "CHECK-BE1",
+      "lessonId": "BE1",
+      "status": "draft",
+      "ecoTask": "BE-1",
+      "ecoTaskName": "Define and establish project governance",
+      "ecoTaskRu": "Управление проектом и полномочия",
+      "ecoEnabler": "Outline governance escalation paths and thresholds",
+      "ecoSecondary": [],
+      "moveType": "действовать",
+      "stem": "В проекте цифровизации городской библиотеки устав определяет полномочия по стоимости изменений: дороже 20 тыс. евро решает управляющий комитет, дешевле этой суммы — руководитель проекта. Поставщик предлагает изменение за 8 тыс. евро. Влияние оценено, команда его поддерживает. Что сделать первым?",
+      "en": "In a city library digitisation project, the steering charter says changes above €20k are decided by the committee and smaller ones by the project manager. A vendor proposes an €8k change. Its impact is assessed and the team supports it. What should you do first?",
+      "options": [
+        "Вынести изменение на ближайшее заседание комитета, чтобы решение было общим.",
+        "Принять решение в пределах своего порога и зафиксировать его по правилам отчётности.",
+        "Отложить решение до квартального пересмотра бюджета, чтобы не менять план прямо сейчас.",
+        "Попросить поставщика ещё раз снизить цену, прежде чем рассматривать изменение."
+      ],
+      "enOptions": [
+        "Take the change to the next committee meeting so the decision is shared.",
+        "Decide within your threshold and record the decision under the reporting rules.",
+        "Defer the decision to the quarterly budget review to avoid changing the plan now.",
+        "Ask the vendor to cut the price again before considering the change."
+      ],
+      "key": 1,
+      "why": [
+        "Сумма находится в пределах ваших полномочий. Решение комитета не требуется.",
+        "Влияние оценено, сумма в пределах ваших полномочий. Вы можете принять решение и записать его по установленным правилам.",
+        "В условии нет требования ждать квартального пересмотра для такого решения.",
+        "Снижение цены можно обсудить, но оно не является обязательным условием решения."
+      ],
+      "enWhy": [
+        "The committee need not decide a change within your delegated threshold.",
+        "Assessment is complete; you may decide and record it within delegated authority.",
+        "A quarterly review is not stated as a prerequisite for this decision.",
+        "A price reduction may be discussed but is not a required step for this assessed decision."
+      ],
+      "fact": "Вы вправе принять это решение. Влияние изменения уже оценено.",
+      "enFact": "The decision is delegated to the PM and impact is assessed.",
+      "rule": "Принимайте решения в пределах своих полномочий и фиксируйте их.",
+      "enRule": "Act within your authority threshold and record the decision.",
+      "boundary": "Если сумма превышает ваш порог полномочий, решение принимает уполномоченный орган.",
+      "enBoundary": "If the threshold is exceeded, the authorised body decides.",
+      "reaction": [
+        "Сумма находится в пределах ваших полномочий. Решение комитета не требуется.",
+        "Влияние оценено, сумма в пределах ваших полномочий. Вы можете принять решение и записать его по установленным правилам.",
+        "В условии нет требования ждать квартального пересмотра для такого решения.",
+        "Снижение цены можно обсудить, но оно не является обязательным условием решения."
+      ],
+      "enReaction": [
+        "The committee need not decide a change within your delegated threshold.",
+        "Assessment is complete; you may decide and record it within delegated authority.",
+        "A quarterly review is not stated as a prerequisite for this decision.",
+        "A price reduction may be discussed but is not a required step for this assessed decision."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 1. PMBOK 8 §2.1.2, §2.1.4, §3.4.2; PDF 116–118, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE2",
+      "lessonId": "BE2",
+      "status": "draft",
+      "ecoTask": "BE-2",
+      "ecoTaskName": "Plan and manage project compliance",
+      "ecoTaskRu": "Обязательные требования",
+      "ecoEnabler": "Determine the necessary approach and action(s) to address compliance needs",
+      "ecoSecondary": [],
+      "moveType": "действовать",
+      "stem": "За день до публичного запуска аудиторы обнаружили нарушение обязательного стандарта доступности на странице оплаты. План качества относит такие нарушения к блокирующим выпуск. Ни текущая страница, ни обходной способ оплаты не прошли требуемую проверку доступности. Что сделать первым?",
+      "en": "An audit the day before public launch finds a breach of a mandatory accessibility standard on the payment page. The quality plan classes such breaches as release-blocking. Neither the current page nor an alternative payment route has passed the required accessibility check. What should you do first?",
+      "options": [
+        "Задержать выпуск страницы оплаты и сообщить владельцу продукта о нарушении.",
+        "Выпустить сервис по плану и исправить страницу оплаты в первом же обновлении.",
+        "Согласовать с владельцем продукта запуск в срок с обходным способом оплаты.",
+        "Запустить сервис, добавив на страницу предупреждение о возможных ограничениях."
+      ],
+      "enOptions": [
+        "Hold the payment page release and inform the product owner of the breach.",
+        "Launch on schedule and fix the payment page in the first update after launch.",
+        "Agree with the product owner to launch on time with an alternative payment route.",
+        "Launch, adding a notice to the page about possible limitations."
+      ],
+      "key": 0,
+      "why": [
+        "До устранения нарушения выпуск запрещён. Владельцу продукта нужно сообщить, как это повлияет на запуск.",
+        "Обещание исправить страницу после запуска не заменяет обязательную проверку до выпуска.",
+        "Владелец продукта не может своим согласием подтвердить доступность непроверенного способа оплаты.",
+        "Предупреждение сообщит пользователям о нарушении, но само нарушение останется."
+      ],
+      "enWhy": [
+        "Release is blocked until the breach is resolved; the product owner needs to know the impact.",
+        "Promising a post-launch fix does not satisfy the current release control.",
+        "Product-owner agreement does not establish accessibility of an unchecked alternative route.",
+        "A notice communicates the breach but does not remedy it."
+      ],
+      "fact": "Ни один способ оплаты не прошёл обязательную проверку перед выпуском.",
+      "enFact": "The release control is passed for neither payment route.",
+      "rule": "Согласие бизнеса не заменяет обязательную проверку перед выпуском.",
+      "enRule": "Business support does not replace a mandatory release control.",
+      "boundary": "Если бы другой способ оплаты прошёл проверку требований, допустимые варианты решения изменились бы.",
+      "enBoundary": "A verified compliant alternative route would change the permitted options.",
+      "reaction": [
+        "До устранения нарушения выпуск запрещён. Владельцу продукта нужно сообщить, как это повлияет на запуск.",
+        "Обещание исправить страницу после запуска не заменяет обязательную проверку до выпуска.",
+        "Владелец продукта не может своим согласием подтвердить доступность непроверенного способа оплаты.",
+        "Предупреждение сообщит пользователям о нарушении, но само нарушение останется."
+      ],
+      "enReaction": [
+        "Release is blocked until the breach is resolved; the product owner needs to know the impact.",
+        "Promising a post-launch fix does not satisfy the current release control.",
+        "Product-owner agreement does not establish accessibility of an unchecked alternative route.",
+        "A notice communicates the breach but does not remedy it."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 2. PMBOK 8 §2.1, §2.1.6.5; PDF 115, 120, 128–129. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE3",
+      "lessonId": "BE3",
+      "status": "draft",
+      "ecoTask": "BE-3",
+      "ecoTaskName": "Manage and control changes",
+      "ecoTaskRu": "Управление изменениями",
+      "ecoEnabler": "Execute the change control process",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "В адаптивном проекте мобильного гида для музея заказчик на обзоре итерации просит новую функцию. Бэклогом управляет владелец продукта, влияние функции не оценено. Что сделать первым?",
+      "en": "In an adaptive project building a museum’s mobile guide, the customer asks for a new feature at the iteration review. The product owner manages the backlog; the feature’s impact is unassessed. What should you do first?",
+      "options": [
+        "Взять функцию в текущую итерацию, раз заказчик сам попросил её на обзоре.",
+        "Оформить формальный запрос на изменение и передать его управляющему комитету.",
+        "Внести запрос в бэклог, оценить с командой; приоритет определяет владелец продукта.",
+        "Отклонить запрос до выхода текущего релиза, чтобы не сбивать команду."
+      ],
+      "enOptions": [
+        "Pull the feature into the current iteration since the customer asked at the review.",
+        "Raise a formal change request and send it to the steering committee.",
+        "Log it in the backlog, assess it with the team; the product owner sets priority.",
+        "Reject the request until the current release ships so the team stays focused."
+      ],
+      "key": 2,
+      "why": [
+        "Просьба заказчика на обзоре не даёт права сразу менять текущую итерацию.",
+        "В этом проекте запросами управляет владелец продукта через бэклог.",
+        "Команда увидит запрос в бэклоге и оценит его. Владелец продукта сможет определить приоритет.",
+        "Близость релиза не мешает рассмотреть пользу новой функции."
+      ],
+      "enWhy": [
+        "A request at a review does not automatically authorise changing the current iteration.",
+        "The condition specifies backlog ownership, not committee control.",
+        "The request becomes visible, assessed and available for product-owner prioritisation.",
+        "An approaching release does not by itself prohibit consideration of new value."
+      ],
+      "fact": "Бэклогом управляет владелец продукта. Новый запрос проходит через него.",
+      "enFact": "The request follows a product-owner-managed backlog.",
+      "rule": "Определяйте приоритет нового запроса по принятому порядку работы с бэклогом.",
+      "enRule": "A new request is prioritised through the defined backlog process.",
+      "boundary": "В предиктивном проекте может действовать другой порядок контроля изменений.",
+      "enBoundary": "A predictive project may have a different change-control process.",
+      "reaction": [
+        "Просьба заказчика на обзоре не даёт права сразу менять текущую итерацию.",
+        "В этом проекте запросами управляет владелец продукта через бэклог.",
+        "Команда увидит запрос в бэклоге и оценит его. Владелец продукта сможет определить приоритет.",
+        "Близость релиза не мешает рассмотреть пользу новой функции."
+      ],
+      "enReaction": [
+        "A request at a review does not automatically authorise changing the current iteration.",
+        "The condition specifies backlog ownership, not committee control.",
+        "The request becomes visible, assessed and available for product-owner prioritisation.",
+        "An approaching release does not by itself prohibit consideration of new value."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 3. PMBOK 8 §2.1.6.8; PDF 133–135. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 3. PMBOK 8 §2.1.6.8; PDF 133–135. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE4",
+      "lessonId": "BE4",
+      "status": "draft",
+      "ecoTask": "BE-4",
+      "ecoTaskName": "Remove impediments and manage issues",
+      "ecoTaskRu": "Препятствия и проблемы",
+      "ecoEnabler": "Determine and apply an intervention strategy to remove/minimize impediments",
+      "ecoSecondary": [],
+      "moveType": "эскалировать",
+      "stem": "Подрядчик четвёртый день не открывает команде доступ к тестовой среде. Команда испробовала согласованные обходные пути. Договор с подрядчиком ведёт директор по закупкам, у вас нет полномочий по договору. Без доступа релиз сдвинется. Что сделать следующим?",
+      "en": "For four days a contractor has not given the team access to the test environment. The team has tried the agreed workarounds. The procurement director owns the contract; you have no contractual authority. Without access the release will slip. What should you do next?",
+      "options": [
+        "Поручить команде развернуть собственную тестовую среду без согласования с подрядчиком.",
+        "Дать подрядчику ещё неделю: он подтвердил, что уже занимается проблемой.",
+        "Переключить команду на другие задачи и сообщить о задержке на ближайшей встрече.",
+        "Обратиться к директору по закупкам: показать влияние на релиз и уже сделанные шаги."
+      ],
+      "enOptions": [
+        "Have the team build its own test environment without the contractor’s agreement or access.",
+        "Give the contractor another week: they confirmed they are working on it.",
+        "Move the team to other work and report the delay at the next status meeting.",
+        "Go to the procurement director with the release impact and the steps already taken."
+      ],
+      "key": 3,
+      "why": [
+        "Свою среду вы ещё не оценили. Такая замена выходит за установленный порядок работы по договору.",
+        "Ожидание ещё неделю увеличит риск задержки, а новых оснований ждать в условии нет.",
+        "Другие задачи займут команду, но доступ по-прежнему зависит от решения владельца договора.",
+        "Команда испробовала обходные пути. Теперь владельцу договора нужны факты, чтобы решить вопрос в пределах своих полномочий."
+      ],
+      "enWhy": [
+        "An independent replacement environment is unassessed and bypasses the chosen contractual route.",
+        "More waiting worsens the known schedule threat without new justification.",
+        "Switching work does not resolve an impediment that now requires the contract owner.",
+        "Workarounds are exhausted; the authorised owner needs to be involved with evidence."
+      ],
+      "fact": "Обходные пути не помогли. Полномочия по договору есть у директора по закупкам.",
+      "enFact": "Workarounds are exhausted and the director holds contractual authority.",
+      "rule": "Обращайтесь к тому, у кого есть полномочия принять нужное решение.",
+      "enRule": "Escalation fits when the required decision exceeds your authority.",
+      "boundary": "Если вы вправе устранить препятствие сами, сначала используйте эту возможность.",
+      "enBoundary": "If the impediment can be resolved within your authority, take the available action first.",
+      "reaction": [
+        "Свою среду вы ещё не оценили. Такая замена выходит за установленный порядок работы по договору.",
+        "Ожидание ещё неделю увеличит риск задержки, а новых оснований ждать в условии нет.",
+        "Другие задачи займут команду, но доступ по-прежнему зависит от решения владельца договора.",
+        "Команда испробовала обходные пути. Теперь владельцу договора нужны факты, чтобы решить вопрос в пределах своих полномочий."
+      ],
+      "enReaction": [
+        "An independent replacement environment is unassessed and bypasses the chosen contractual route.",
+        "More waiting worsens the known schedule threat without new justification.",
+        "Switching work does not resolve an impediment that now requires the contract owner.",
+        "Workarounds are exhausted; the authorised owner needs to be involved with evidence."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 4. PMBOK 8 §2.1.6.7, §2.7.1; PDF 131–133, 198. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE5",
+      "lessonId": "BE5",
+      "status": "draft",
+      "ecoTask": "BE-5",
+      "ecoTaskName": "Plan and manage risk",
+      "ecoTaskRu": "Управление рисками",
+      "ecoEnabler": "Analyze risks",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Транспортный поставщик фестиваля предупреждает: через шесть недель возможна забастовка перевозчиков. Вероятность и влияние не оценены, ответ на риск не выбран. Что сделать первым?",
+      "en": "The festival’s transport supplier warns of a possible carriers’ strike in six weeks. Probability and impact are unassessed and no response has been chosen. What should you do first?",
+      "options": [
+        "Сразу заключить договор с запасным перевозчиком, чтобы исключить срыв.",
+        "Оценить вероятность и влияние с владельцем риска и выбрать ответ с условием запуска.",
+        "Сообщить спонсору, что фестиваль под угрозой, и запросить дополнительный бюджет.",
+        "Внести риск в реестр и проверить его статус на следующем ежемесячном обзоре."
+      ],
+      "enOptions": [
+        "Sign a contract with a backup carrier now to rule out any disruption to the festival.",
+        "Assess probability and impact with the risk owner, then choose a response and trigger.",
+        "Tell the sponsor the festival is at risk and request extra budget.",
+        "Add the risk to the register and check its status at next month’s review."
+      ],
+      "key": 1,
+      "why": [
+        "Вы ещё не оценили риск. Немедленный договор с запасным перевозчиком может оказаться избыточной мерой.",
+        "Оценка поможет выбрать ответ на риск и определить, когда его применять.",
+        "Без оценки вероятности и последствий вы не можете обосновать запрос бюджета.",
+        "Записать риск полезно, но ожидание следующего обзора задерживает анализ."
+      ],
+      "enWhy": [
+        "An immediate contract may be disproportionate to the unassessed risk.",
+        "Analysis supports selection of a justified response and activation point.",
+        "The budget request is not supported by probability and impact assessment.",
+        "Recording the risk helps, but waiting for the review postpones needed analysis."
+      ],
+      "fact": "Забастовка возможна, но её вероятность и влияние ещё неизвестны.",
+      "enFact": "The risk is possible but probability and impact remain unknown.",
+      "rule": "Оцените риск, чтобы выбрать подходящий ответ.",
+      "enRule": "Select a risk response after proportionate assessment.",
+      "boundary": "Если ответ и условие запуска уже определены, может потребоваться применить готовый план.",
+      "enBoundary": "If a response and trigger are already defined, activation may be required.",
+      "reaction": [
+        "Вы ещё не оценили риск. Немедленный договор с запасным перевозчиком может оказаться избыточной мерой.",
+        "Оценка поможет выбрать ответ на риск и определить, когда его применять.",
+        "Без оценки вероятности и последствий вы не можете обосновать запрос бюджета.",
+        "Записать риск полезно, но ожидание следующего обзора задерживает анализ."
+      ],
+      "enReaction": [
+        "An immediate contract may be disproportionate to the unassessed risk.",
+        "Analysis supports selection of a justified response and activation point.",
+        "The budget request is not supported by probability and impact assessment.",
+        "Recording the risk helps, but waiting for the review postpones needed analysis."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 5. PMBOK 8 §2.7.1–2.7.2; PDF 197–203. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE6",
+      "lessonId": "BE6",
+      "status": "draft",
+      "ecoTask": "BE-6",
+      "ecoTaskName": "Continuous improvement",
+      "ecoTaskRu": "Непрерывное улучшение",
+      "ecoEnabler": "Update organizational process assets (OPAs)",
+      "ecoSecondary": [],
+      "moveType": "действовать",
+      "stem": "После неудачного выпуска команда на ретроспективе нашла причину: в чек-листе выпуска нет проверки версии конфигурации. Добавленная проверка сработала в двух последних выпусках. Чек-лист — общий актив организации, его ведёт PMO, и им пользуются ещё три команды. Что сделать следующим?",
+      "en": "After a failed release, the retrospective found the cause: the release checklist has no configuration-version check. The added check worked in the last two releases. The checklist is a shared organisational asset owned by the PMO and used by three other teams. What should you do next?",
+      "options": [
+        "Оставить проверку в своей команде: другие команды сами решат, нужна ли она им.",
+        "Провести ещё один анализ причин, чтобы убедиться, что других причин нет.",
+        "Передать PMO предложение обновить чек-лист вместе с данными двух выпусков.",
+        "Добавить ко всем выпускам ручную повторную проверку конфигурации."
+      ],
+      "enOptions": [
+        "Keep the check within your team; the others can decide whether they need it.",
+        "Run another root-cause analysis to make sure there are no other causes.",
+        "Send the PMO a proposal to update the checklist, with data from both releases.",
+        "Add a manual configuration re-check to every release."
+      ],
+      "key": 2,
+      "why": [
+        "Другие команды пользуются общим чек-листом. Если оставить проверку у себя, в этом документе она не появится.",
+        "Проверка уже сработала в двух выпусках. Чтобы предложить её PMO, повторный анализ причин не требуется.",
+        "PMO ведёт общий чек-лист. Данные двух выпусков помогут ему решить, как обновить документ.",
+        "Ручная перепроверка не добавит пропущенный пункт в общий чек-лист."
+      ],
+      "enWhy": [
+        "Local use does not transfer the verified lesson into the shared asset.",
+        "Repeat analysis without new evidence is unnecessary to submit the verified change.",
+        "The PMO owns the shared checklist and receives evidence for updating it.",
+        "Manual rechecking does not update the shared asset that lacked the control."
+      ],
+      "fact": "Проверка сработала в двух выпусках. Общий чек-лист ведёт PMO.",
+      "enFact": "The remedy is tested and the shared asset belongs to the PMO.",
+      "rule": "Передайте проверенное улучшение тому, кто отвечает за общий процесс.",
+      "enRule": "A verified lesson should reach the shared process owner.",
+      "boundary": "Прежде чем предлагать изменение как стандарт, проверьте, помогает ли оно.",
+      "enBoundary": "An untested lesson should first be tested rather than spread as a standard.",
+      "reaction": [
+        "Другие команды пользуются общим чек-листом. Если оставить проверку у себя, в этом документе она не появится.",
+        "Проверка уже сработала в двух выпусках. Чтобы предложить её PMO, повторный анализ причин не требуется.",
+        "PMO ведёт общий чек-лист. Данные двух выпусков помогут ему решить, как обновить документ.",
+        "Ручная перепроверка не добавит пропущенный пункт в общий чек-лист."
+      ],
+      "enReaction": [
+        "Local use does not transfer the verified lesson into the shared asset.",
+        "Repeat analysis without new evidence is unnecessary to submit the verified change.",
+        "The PMO owns the shared checklist and receives evidence for updating it.",
+        "Manual rechecking does not update the shared asset that lacked the control."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 6. PMBOK 8 §2.1.6.5–6, §3.4.4; PDF 128–131, 214. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 6. PMBOK 8 §2.1.6.5–6, §3.4.4; PDF 128–131, 214. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE7",
+      "lessonId": "BE7",
+      "status": "draft",
+      "ecoTask": "BE-7",
+      "ecoTaskName": "Support organizational change",
+      "ecoTaskRu": "Организационные изменения",
+      "ecoEnabler": "Evaluate the impact of organizational change on the project and determine required actions",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Компания объявила: через два месяца отдел, сотрудники которого — основные пользователи новой системы, объединят с другим отделом. Вы внедряете систему для этого отдела. По плану он начнёт пользоваться ею через три месяца. Что сделать первым?",
+      "en": "The company announces that in two months the department whose staff are the main users of the new system will merge with another department. The project is implementing the system for that department, with rollout planned in three months. What should you do first?",
+      "options": [
+        "Оценить со спонсором, как объединение изменит пользователей, требования и план.",
+        "Продолжить по плану и учесть новую структуру при подготовке к внедрению.",
+        "Приостановить проект до завершения объединения, чтобы не делать лишнюю работу.",
+        "Ускорить внедрение, чтобы завершить его до объединения отделов."
+      ],
+      "enOptions": [
+        "Assess with the sponsor how the merger affects users, requirements and the plan.",
+        "Continue as planned and allow for the new structure when preparing the rollout.",
+        "Pause the project until the merger is complete to avoid wasted work.",
+        "Bring the rollout forward so it is finished before the departments merge."
+      ],
+      "key": 0,
+      "why": [
+        "После объединения пользователи будут работать в другой структуре. Нужно оценить последствия, прежде чем менять план проекта.",
+        "Если отложить оценку, команда продолжит работать с требованиями и планом для прежней структуры.",
+        "Вы ещё не оценили влияние объединения. Возможно, останавливать проект не потребуется.",
+        "Вы не знаете, нужно ли ускорение и хватит ли для него ресурсов."
+      ],
+      "enWhy": [
+        "The merger changes the user context and requires assessment before adapting the plan.",
+        "Delayed assessment may leave requirements and the plan based on the old structure.",
+        "Stopping without assessment may be unnecessary; the impact is not yet known.",
+        "Acceleration is not supported by assessment of merger impact and resource availability."
+      ],
+      "fact": "Отделы объединят до внедрения. Это изменит работу пользователей системы.",
+      "enFact": "Reorganisation precedes rollout and changes the user group.",
+      "rule": "Оцените, как реорганизация повлияет на проект.",
+      "enRule": "Organisational changes must be assessed relative to the project.",
+      "boundary": "Если влияние оценено и действия согласованы, переходите к выполнению плана.",
+      "enBoundary": "Once impact is assessed and actions agreed, execution is next.",
+      "reaction": [
+        "После объединения пользователи будут работать в другой структуре. Нужно оценить последствия, прежде чем менять план проекта.",
+        "Если отложить оценку, команда продолжит работать с требованиями и планом для прежней структуры.",
+        "Вы ещё не оценили влияние объединения. Возможно, останавливать проект не потребуется.",
+        "Вы не знаете, нужно ли ускорение и хватит ли для него ресурсов."
+      ],
+      "enReaction": [
+        "The merger changes the user context and requires assessment before adapting the plan.",
+        "Delayed assessment may leave requirements and the plan based on the old structure.",
+        "Stopping without assessment may be unnecessary; the impact is not yet known.",
+        "Acceleration is not supported by assessment of merger impact and resource availability."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 7. PMBOK 8 §2.5.1, §2.5.2.4–6, §3.4.2; PDF 173–178, 211–212. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    },
+    {
+      "id": "CHECK-BE8",
+      "lessonId": "BE8",
+      "status": "draft",
+      "ecoTask": "BE-8",
+      "ecoTaskName": "Evaluate external business environment changes",
+      "ecoTaskRu": "Внешние изменения",
+      "ecoEnabler": "Assess and prioritize the impact on project scope/backlog based on changes in the external business environment",
+      "ecoSecondary": [],
+      "moveType": "оценить",
+      "stem": "Поставщик облачной платформы объявил, что через девять месяцев прекращает поддержку API, на котором построен ключевой модуль продукта. В бэклоге это пока не отражено. Что сделать первым?",
+      "en": "A cloud platform vendor has announced it will end support in nine months for the API that a key product module is built on. The backlog does not yet reflect this. What should you do first?",
+      "options": [
+        "Вернуться к вопросу за три месяца до отключения, когда появятся подробности.",
+        "Остановить текущую разработку и сразу начать перенос модуля на новую платформу.",
+        "Сообщить команде о новости и оставить бэклог без изменений до релиза.",
+        "Оценить влияние на модуль и бэклог и предложить владельцу продукта новый приоритет."
+      ],
+      "enOptions": [
+        "Revisit the issue three months before the shutdown, when details are available.",
+        "Stop current development and start moving the module to a new platform right now.",
+        "Tell the team the news and leave the backlog unchanged until the next release.",
+        "Assess the impact on the module and backlog and propose a priority to the product owner."
+      ],
+      "key": 3,
+      "why": [
+        "Поставщик подтвердил изменение. Если ждать, у команды останется меньше времени на подготовку.",
+        "Вы выбираете перенос до того, как оценили последствия и другие варианты.",
+        "Команда узнает новость, но без оценки не сможет определить, что менять в бэклоге.",
+        "Оценка поможет понять, какие работы нужны в бэклоге и какой приоритет предложить владельцу продукта."
+      ],
+      "enWhy": [
+        "Waiting reduces adaptation time for an already confirmed change.",
+        "Immediate migration selects a solution before assessing impacts and alternatives.",
+        "Notification without assessment does not determine necessary backlog changes.",
+        "Assessment links external technical change to backlog needs and priority."
+      ],
+      "fact": "Поставщик подтвердил прекращение поддержки API. Влияние на бэклог ещё не оценено.",
+      "enFact": "The end of API support is confirmed; backlog impact has not been assessed.",
+      "rule": "Учитывайте внешние технические изменения при выборе работ и приоритетов в бэклоге.",
+      "enRule": "External technical changes should inform backlog decisions.",
+      "boundary": "Если подходящие изменения уже согласованы, повторная оценка без новых данных может только задержать работу.",
+      "enBoundary": "With a prepared approved adaptation, repeat assessment without new evidence may be unnecessary.",
+      "reaction": [
+        "Поставщик подтвердил изменение. Если ждать, у команды останется меньше времени на подготовку.",
+        "Вы выбираете перенос до того, как оценили последствия и другие варианты.",
+        "Команда узнает новость, но без оценки не сможет определить, что менять в бэклоге.",
+        "Оценка поможет понять, какие работы нужны в бэклоге и какой приоритет предложить владельцу продукта."
+      ],
+      "enReaction": [
+        "Waiting reduces adaptation time for an already confirmed change.",
+        "Immediate migration selects a solution before assessing impacts and alternatives.",
+        "Notification without assessment does not determine necessary backlog changes.",
+        "Assessment links external technical change to backlog needs and priority."
+      ],
+      "sourceNote": "ECO 2026, Business Environment, задача 8. PMBOK 8 §2.1.1, §2.1.4; PDF 115–118. Разделы по теме задания. Правильный ответ ещё должны проверить два PMP-эксперта.",
+      "enSourceNote": "ECO 2026, Business Environment, task 8. PMBOK 8 §2.1.1, §2.1.4; PDF 115–118. Sections relevant to the topic. The answer still requires review by two PMP experts."
+    }
+  ]
+}

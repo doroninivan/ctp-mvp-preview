@@ -1,0 +1,53 @@
+{
+  "provider": "ElevenLabs",
+  "model": "eleven_text_to_sound_v2",
+  "date": "2026-10-28",
+  "source": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+  "clips": {
+    "message": {
+      "file": "message.mp3",
+      "prompt": "A single quiet dry wooden desk notification tap. Minimal, professional, no speech, no music.",
+      "model": "eleven_text_to_sound_v2",
+      "date": "2026-10-28",
+      "duration": 0.48,
+      "requestedDuration": 0.5,
+      "sha256": "85f374bcb980d46242272f154fad9beb5dfbf5cca6a13f2076b6da026392cde4",
+      "units": 6,
+      "requestId": null
+    },
+    "choice": {
+      "file": "choice.mp3",
+      "prompt": "A single very soft tactile keyboard click, dry and short. No speech, no music.",
+      "model": "eleven_text_to_sound_v2",
+      "date": "2026-10-28",
+      "duration": 0.48,
+      "requestedDuration": 0.5,
+      "sha256": "2f516b96258e9a1e1915f95edec83068f17088e7e083748acb0c766686e0740f",
+      "units": 6,
+      "requestId": null
+    },
+    "review": {
+      "file": "review.mp3",
+      "prompt": "A subtle single warm paper page turn and soft tap. No melody, no speech.",
+      "model": "eleven_text_to_sound_v2",
+      "date": "2026-10-28",
+      "duration": 0.48,
+      "requestedDuration": 0.5,
+      "sha256": "6507ce932eae4c673c5e075a61a8e017b99ad694284300ddfebad710826aaee0",
+      "units": 6,
+      "requestId": null
+    },
+    "office": {
+      "file": "office.mp3",
+      "prompt": "Quiet office room tone, soft distant air ventilation and very faint keyboard texture. No intelligible voices, no music. Seamless ambient loop.",
+      "model": "eleven_text_to_sound_v2",
+      "date": "2026-10-28",
+      "duration": 6.0,
+      "requestedDuration": 6,
+      "sha256": "e580f9154bc89621f8fcc2c9c53e6952810de5a95c6695fc1b818517f15ec36a",
+      "units": 72,
+      "requestId": null
+    }
+  },
+  "units": 90
+}

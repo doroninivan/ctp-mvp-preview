@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-10-28",
+  "provider": "ElevenLabs direct API",
+  "clips": [
+    {
+      "file": "nora-demo-en.mp3",
+      "character": "Nora",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "voice_status": "existing agent voice",
+      "model_id": "eleven_multilingual_v2",
+      "text": "The sponsor wants one more feature before Friday. It sounds small, but the team has not estimated it yet. What would you do first? Tell me in your own words before you look at the options.",
+      "characters": 188,
+      "response_headers": {
+        "request-id": "UKQCXVErsMfuCdT5nojv",
+        "character-cost": "91",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 174750,
+      "sha256": "f9e8be6dfbe59d69c22eafd549e10e0712aea4d6278f8e0af09629db6fcf2b32",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "10.866939"
+        }
+      }
+    },
+    {
+      "file": "nora-demo-ru.mp3",
+      "character": "Nora",
+      "voice_id": "cgSgspJ2msm6clMCkdW9",
+      "voice_status": "existing agent voice",
+      "model_id": "eleven_multilingual_v2",
+      "text": "Спонсор просит добавить ещё одну функцию к пятнице. На словах изменение небольшое, но команда его пока не оценивала. Что вы сделаете первым? Ответьте своими словами, прежде чем смотреть варианты.",
+      "characters": 195,
+      "response_headers": {
+        "request-id": "F0XGqUhRnbP8QLkwrSxJ",
+        "character-cost": "94",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 211530,
+      "sha256": "c19e36f8c5adf095763718738dd7070e7776a0a518ebb9ec59c8b536b7cefe08",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "13.142494"
+        }
+      }
+    },
+    {
+      "file": "be4-impediment-en.mp3",
+      "character": "Sergey",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "voice_status": "new voice candidate: George",
+      "model_id": "eleven_multilingual_v2",
+      "text": "Our remaining work barely changed over the last three days. The chart shows the trend, but it does not tell us why. We have fifteen minutes before planning. What would you do first?",
+      "characters": 181,
+      "response_headers": {
+        "request-id": "mLRE3n1Q5ELDjoQRWytD",
+        "character-cost": "87",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 167644,
+      "sha256": "7297b7659f514cbadb75c5426ff4e02dd609a2af764e321475fecdb7e0440572",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "10.402540"
+        }
+      }
+    },
+    {
+      "file": "be4-impediment-ru.mp3",
+      "character": "Sergey",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "voice_status": "new voice candidate: George",
+      "model_id": "eleven_multilingual_v2",
+      "text": "За последние три дня объём оставшейся работы почти не изменился. График показывает динамику, но не объясняет причину. До планирования пятнадцать минут. Что вы сделаете первым?",
+      "characters": 175,
+      "response_headers": {
+        "request-id": "7hTCcN1ZByeRWxJXk9m6",
+        "character-cost": "84",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 191468,
+      "sha256": "a2c7ae9a41cf6f929cff4d1ac18c32a289242cc0b18a23c2823f1a86a9c6b9e7",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "11.888617"
+        }
+      }
+    },
+    {
+      "file": "be5-risk-response-en.mp3",
+      "character": "Mark",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "voice_status": "new voice candidate: Daniel",
+      "model_id": "eleven_multilingual_v2",
+      "text": "The supplier has confirmed a delay. The trigger in our approved contingency plan has been reached, the backup is ready, and I have authority to activate it. What is the next step?",
+      "characters": 179,
+      "response_headers": {
+        "request-id": "I1sPecz6ovMzIY4jk8PD",
+        "character-cost": "86",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 217381,
+      "sha256": "481310d32283dbcc2976f344854c80c7c73cde56ce6567f7454c55dd6ccf2121",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "13.514014"
+        }
+      }
+    },
+    {
+      "file": "be5-risk-response-ru.mp3",
+      "character": "Mark",
+      "voice_id": "onwK4e9ZLuTAKqWW03F9",
+      "voice_status": "new voice candidate: Daniel",
+      "model_id": "eleven_multilingual_v2",
+      "text": "Поставщик подтвердил задержку. Условие запуска утверждённого резервного плана наступило, замена готова, и у меня есть полномочия её подключить. Какой следующий шаг?",
+      "characters": 164,
+      "response_headers": {
+        "request-id": "Np53a6ttizU3Vh9oNReC",
+        "character-cost": "79",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 206096,
+      "sha256": "0a48cdb868dd2a8cc1e41b6c24ee752feb2eebf618ed3368dc88f12019070e9e",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "12.817415"
+        }
+      }
+    },
+    {
+      "file": "be6-improvement-en.mp3",
+      "character": "Sergey",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "voice_status": "new voice candidate: George",
+      "model_id": "eleven_multilingual_v2",
+      "text": "We keep finding the same type of defect at the end of each iteration. There is no immediate safety risk, and we have not established the cause. What would you change first, and why?",
+      "characters": 181,
+      "response_headers": {
+        "request-id": "WcpWLmfNaLxF2zdB7Ztv",
+        "character-cost": "87",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 174332,
+      "sha256": "a26dcf419c078ac144addbb83d269985b94d1384e710fa081dd3adf063d9f4c0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "10.820499"
+        }
+      }
+    },
+    {
+      "file": "be6-improvement-ru.mp3",
+      "character": "Sergey",
+      "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+      "voice_status": "new voice candidate: George",
+      "model_id": "eleven_multilingual_v2",
+      "text": "В конце каждой итерации мы находим один и тот же тип дефекта. Прямой угрозы безопасности нет, а причину мы пока не установили. Что вы измените первым и почему?",
+      "characters": 159,
+      "response_headers": {
+        "request-id": "pOT8PMTJVa95N7SHThCt",
+        "character-cost": "77",
+        "content-type": "audio/mpeg"
+      },
+      "bytes": 172660,
+      "sha256": "cf59a52aa7a77165e7950a0327dafdf599e2aa53cc6e04cb5702cedd565105fa",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "mp3",
+            "sample_rate": "44100",
+            "channels": 1
+          }
+        ],
+        "format": {
+          "duration": "10.727619"
+        }
+      }
+    }
+  ],
+  "characters_total": 1422
+}
