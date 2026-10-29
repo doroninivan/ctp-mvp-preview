@@ -8,7 +8,7 @@
  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const playIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z" fill="currentColor"/></svg>';
  const pauseIcon='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zm7 0h4v14h-4z" fill="currentColor"/></svg>';
- function mount(host,{id,ru,en,transcript,version}){
+ function mount(host,{id,ru,en,transcript,version,quotes=true}){
   if(!host||!data||(version&&data.version!==version))return;
   const clips={ru:data.clips[id.toLowerCase()+'-ru'],en:data.clips[id.toLowerCase()+'-en']};
   if(clips.ru?.text!==ru||clips.en?.text!==en)return;
@@ -30,7 +30,7 @@
   function load(){
    pause();audio.src=new URL(clip.file,base).href;button.innerHTML=playIcon;button.setAttribute('aria-label','Послушать сообщение');host.classList.remove('is-playing');
    wave.innerHTML=clip.peaks.map((p,i)=>`<rect x="${i*4}" y="${18-Math.max(3,p*32)/2}" width="2" height="${Math.max(3,p*32)}" rx="1"/>`).join('');
-   if(transcript){transcript.lang=lang;transcript.setAttribute('aria-label',clip.text);transcript.innerHTML='<span aria-hidden="true">«'+clip.words.map((w,i)=>`<span data-word="${i}">${esc(w.text)}</span>`).join('')+'»</span>';}
+   if(transcript){transcript.lang=lang;transcript.setAttribute('aria-label',clip.text);transcript.innerHTML='<span aria-hidden="true">'+(quotes?'«':'')+clip.words.map((w,i)=>`<span data-word="${i}">${esc(w.text)}</span>`).join('')+(quotes?'»':'')+'</span>';}
    host.querySelectorAll('[data-lang]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
    status.textContent='';paint();
   }

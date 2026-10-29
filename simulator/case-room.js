@@ -1,7 +1,8 @@
-/* Presentation of frozen BE3. No generated dialogue, keys, scoring or network calls. */
+/* Presentation of the frozen question bank. No generated dialogue, keys, scoring or network calls. */
 'use strict';
 window.CaseRoom = (() => {
   function render(ctx) {
+    if(window.CaseHybrid)return CaseHybrid.render(ctx);
     const {q,s,screen,esc,original,enBlock,toggle,choices,feedback,save,advance,render:refresh,episode,newLesson,state,toast}=ctx;
     const read = s.room && s.room.edition === 1 ? s.room : {};
     const room = s.room = {edition:1,entered:read.entered===true||s.stage>0||!!s.text,continued:read.continued===true,reflection:typeof read.reflection==='string'?read.reflection.slice(0,700):''};
@@ -14,7 +15,7 @@ window.CaseRoom = (() => {
     const bind=(id,fn)=>{const el=document.getElementById(id);if(el)el.onclick=fn;};
     const portrait=(p,cls='')=>`<img class="${cls}" src="${esc(p.img)}" alt="${esc(p.who)}" style="object-position:${esc(p.pos)}">`;
     const stepbar=`<ol class="room-progress" aria-label="Ход кейса">${steps.map((t,i)=>`<li ${i===s.stage?'aria-current="step"':''} class="${i<s.stage?'past':''}"><span>${i<s.stage?'✓':String(i+1).padStart(2,'0')}</span>${t}</li>`).join('')}</ol>`;
-    const head=`<div class="room-masthead"><div><div class="eyebrow">NORTHLINE MEDIA / TREND RADAR</div><h1>${esc(q.title)}</h1></div><span class="room-number" aria-hidden="true">${String(q.episode).padStart(2,'0')}<small> / 08</small></span></div>${stepbar}`;
+    const head=`<div class="room-masthead"><div><div class="eyebrow">Northline Media · Trend Radar</div><h1>${esc(q.title)}</h1></div></div>${stepbar}`;
     const caveat='<p class="room-caption">Учебный кейс Business Environment. Авторский черновик до проверки двумя PMP-экспертами.</p>';
     screen.innerHTML=`<div class="case-room">${head}<div id="roomBody"></div>${caveat}</div>`;
     const body=document.getElementById('roomBody');
