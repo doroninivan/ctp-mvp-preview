@@ -12,5 +12,6 @@ window.CasePortraits=(()=>{
   BE8:{focus:'72% 24%',origin:'72% 24%',width:'100%',src:'../media/cast/s5.webp'}
  };
  function image(q,esc,cls=''){const a=layouts[q.lessonId];return `<img class="${cls}" data-portrait="${esc(q.lessonId)}" src="${esc(a.src||q.img)}" alt="${esc(q.who)}" style="--portrait-focus:${a.focus};--portrait-origin:${a.origin};--choice-focus:${a.choiceFocus||a.focus};--poster-width:${a.width};object-position:${a.focus}">`;}
- return {layouts,image};
+ const title=q=>q.lessonId==='BE2'?'Цифры важны':q.title;
+ return {layouts,image,title};
 })();
