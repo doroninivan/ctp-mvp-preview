@@ -12,7 +12,7 @@
  let stage=0,first='',pick=null,counter=null;
  let order=AttemptCore.shuffle([0,1,2,3]),counterOrder=AttemptCore.shuffle([0,1,2,3]);
  const aside=document.querySelector('.sceneaside');
- aside.innerHTML=`<img src="${esc(q.img)}" alt="${esc(q.who)}" style="object-position:${esc(q.pos)}"><h3>${esc(q.title)}</h3><p>${esc(q.who)} · ${esc(q.role)}</p><p>«${esc(q.line)}»</p>`;
+ aside.innerHTML=`<img src="${esc('../media/nora-2026-10-29.webp')}" alt="${esc(q.who)}" style="object-position:${esc(q.pos)}"><h3>${esc(q.title)}</h3><p>${esc(q.who)} · ${esc(q.role)}</p><p>«${esc(q.line)}»</p>`;
  function options(item,sequence,attr){return sequence.map((i,p)=>`<button type="button" class="choice" ${attr}="${i}"><span class="letter">${'ABCD'[p]}</span><span>${esc(item.options[i])}</span></button>`).join('');}
  function review(item,index,sequence){
   return `<h3>${index===item.key?'Ваш выбор совпал с авторским разбором':'Разберём ваш выбор'}</h3>
